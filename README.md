@@ -1,30 +1,15 @@
-## Comparison of different search engines for the identification of proteins in complex clinical samples
+### Repository: https://github.com/javanOkendo/peptide_identifcationsMethods
 
+# Comparison of different search engines for the identification of proteins in complex clinical samples
+## Javan O. Okendo. Clemens Hermanaa, Nicola M. Mulder, Jonathan M. Blackburn
+
+### Department of Integrative Biomedical Sciences, Chemical and Systems Biology, [https://www.uct.ac.za/] University of Cape Town
+
+---
+### Background:  
 * Unbiased comparisons between search programs to determine which performs best are challenging and currently there is no standard database search engine that is accepted universally within the proteomics community.
 * Some search parameters should be matched and others can invalidate comparisons if they are matched. This has resulted in consistency making the comparison of different database search engines a great challenge.
 * Consistent data processing is essential. This will enable ease of comparison of different results from different studies of core facilities
-
-## Overview:
-### Repository: github.com/pwilmart/ASMS-2013_search-engine-comparison
-
-#### Poster presented at the 2013 [American Society of Mass Spectroscopy](https://www.asms.org) annual meeting in Minneapolis, MN, June 9-13, 2013.
-
----
-
-# An unbiased comparison of peptide identification performance between SEQUEST, Mascot, and X!Tandem
-
-## Phillip A. Wilmarth, William J. Rathje, and Larry L. David
-
-### Department of Biochemistry and Molecular Biology, Oregon Health & Science University, Portland OR
-
----
-
-### Background:  
-- Unbiased comparisons between search programs to determine which performs best are challenging.
-- Some search parameters should be matched and others can invalidate comparisons if they are matched.
-- Consistent data processing is essential.
-
-> An interesting read is [Toward objective evaluation of proteomic algorithms](https://www.nature.com/articles/nmeth.1983) by John Yates III, et al., Nature Methods, 2012, 9:455.
 
 ### Overview:  
 - Search parameter space systematically explored for Mascot ([Matrix Science](http://www.matrixscience.com/search_form_select.html), Ver. 2.2.1), SEQUEST (Thermo Scientific, Ver. 28 Rev. 12), and X!Tandem (www.theGPM.org, Ver. win-11-12-01-1).
