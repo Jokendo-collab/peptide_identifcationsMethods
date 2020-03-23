@@ -16,11 +16,11 @@
 - Biological datasets from Bronchoalveolar lavage fluid (ATSjournals [Malika et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31860339)) was used in this analysis.
 - Target/decoy databases were used to set common FDR thresholds in each of the searches.
 - Consistent processing eliminated biases.This was achieved by matching the following:
-** protein database (Human uniprot database)
-** Enzymatic cleavages
-** Fixed and variable modifications ( Cystein was a fixed modification and Methyined was used and a variable modification)
-** Parent ion mass type
-** Parent ion mass tolerance
+##### protein database (Human uniprot database)
+##### Enzymatic cleavages
+##### Fixed and variable modifications ( Cystein was a fixed modification and Methyined was used and a variable modification)
+##### Parent ion mass type
+##### Parent ion mass tolerance
 - The number of matches given identical sets of spectra and identical sets of theoretical peptides at a given peptide error rate could be determined for MSfragger, Maxquant, MS-GF+, Comet, Tide_search.
 
 ---
@@ -56,7 +56,7 @@
 
 Supported by National Research Foundation (NRF)
 
-Author contact: javanokendo [at] gmail.com
+Author contact: oknjav001@myuct.ac.za
 
 
 
