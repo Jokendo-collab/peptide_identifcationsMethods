@@ -22,7 +22,7 @@ Parent ion mass type and Parent ion mass tolerance
 
 ---
 
-![workflow](images/Picture1.png)
+![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/database_search_engines.png)
 
 **Data processing workflow.**  Conversion to common file formats at beginning of pipeline ensured consistent data processing for all comparisons.
 
