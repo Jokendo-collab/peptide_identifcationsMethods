@@ -1,9 +1,9 @@
 ### Repository: https://github.com/javanOkendo/peptide_identifcationsMethods
 
 # Comparison of different search engines for the identification of proteins in complex clinical samples
-## Javan O. Okendo. Clemens Hermanaa, Nicola M. Mulder, Jonathan M. Blackburn
+### Javan O. Okendo. Clemens Hermann, Nicola M. Mulder, Jonathan M. Blackburn
 
-### Department of Integrative Biomedical Sciences, Chemical and Systems Biology, [https://www.uct.ac.za/] University of Cape Town
+#### Department of Integrative Biomedical Sciences, Chemical and Systems Biology, [https://www.uct.ac.za/] University of Cape Town
 
 ---
 ### Background:  
