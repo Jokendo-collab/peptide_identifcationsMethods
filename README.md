@@ -1,14 +1,12 @@
-### Repository: https://github.com/javanOkendo/peptide_identifcationsMethods
-
 # Comparison of different search engines for the identification of proteins in complex clinical samples
-### Javan O. Okendo. Clemens Hermann, Nicola M. Mulder, Jonathan M. Blackburn
+#### Javan O. Okendo. Clemens Hermann, Nicola M. Mulder, Jonathan M. Blackburn
 
-#### 1. Department of Integrative Biomedical Sciences, Chemical and Systems Biology, ![https://www.uct.ac.za/] University of Cape Town, South Africa
+#### 1. Department of Integrative Biomedical Sciences, Chemical and Systems Biology, University of Cape Town, South Africa
 #### 2. Department of Integrative Biomedical Sciences, Computational Biology and Bioinformatics, University of Cape Town, South Africa
 
 ---
 ### Background:  
-* Unbiased comparisons between search programs to determine which performs best are challenging and currently there is no standard database search engine that is accepted universally within the proteomics community.
+* Unbiased comparisons between search programs to determine which performs best are challenging. Currently there is no standard database search engine that is accepted universally within the proteomics community. The HUPO-PSI has made some recommendations which are today used as standards in the proteomics comminity. The standards includes the use of mzML as a standard file format for the spectral data and many if not all search engines have been udated to take mzML file formats for the database search. This gains are timely but more work is still needed to be done in the standardization of the proteomics data processing and and downstream analysis. 
 * Some search parameters should be matched and others can invalidate comparisons if they are matched. This has resulted in consistency making the comparison of different database search engines a great challenge.
 * Consistent data processing is essential. This will enable ease of comparison of different results from different studies of core facilities
 
@@ -51,9 +49,9 @@ Mascot and X!Tandem results files converted to formats compatible with a flexibl
 
 ---
 
-Supported by NIH grants EY007755 and EY010572.
+Supported by National Research Foundation (NRF)
 
-Author contact: wilmarth@ohsu.edu
+Author contact: javanokendo [at] gmail.com
 
 
 
