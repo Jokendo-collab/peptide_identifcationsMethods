@@ -24,14 +24,14 @@ Parent ion mass type and Parent ion mass tolerance
 
 ![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/database_search_engines.png)
 
-**Data processing workflow.**  Conversion to common file formats at beginning of pipeline ensured consistent data processing for all comparisons.
+**Data processing workflow.**  Conversion to common file formats at beginning of pipeline ensured consistent data processing for all comparisons. All the MS/MS raw files from the Q-Exacurtive were converted to mzML, HUPO standard file format for the raw data files.
 
 ---
 
 ![parent ion tolerances, lens-lcq](images/Picture2.png)
 ![parent ion tolerances, yeast-ltq](images/Picture3.png)
 
-**Parent ion mass tolerance and other search space parameters should be matched.**  Some search engine parameters are operational. Other parameters affect scoring functions (see below). Remaining parameters determine the number of theoretical peptides (search space) scored during searches. Examples are protein database, enzymatic cleavage, fixed and variable modifications, parent ion mass type and parent ion mass tolerance. These parameters should be matched between search engines for unbiased comparisons. Shown above are several parent ion mass tolerances (fragment ion tolerances were search engine default values). Parent ion mass tolerance optimum was independent of search program.
+**Parent ion mass tolerance and other search space parameters should be matched.**  We noted that some search engine parameters are operational but other parameters affect scoring functions significanctly. Remaining parameters determine the number of theoretical peptides (search space) scored during searches. Examples of these parameters include protein database used (must be for the same organism and the same version with the same number of protein entries), enzymatic cleavage, fixed and variable modifications, parent ion mass type and parent ion mass tolerance. These parameters should were matched between search engines to ensure unbiased comparisons. *Shown above are several parent ion mass tolerances (fragment ion tolerances were search engine default values). Parent ion mass tolerance optimum was independent of search program.
 
 ---
 ![results table](images/Picture6.png)
