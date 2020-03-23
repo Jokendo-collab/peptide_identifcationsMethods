@@ -11,7 +11,7 @@
 * Consistent data processing is essential. This will enable ease of comparison of different results from different studies of core facilities
 
 ### Overview:  
-- Search parameter space systematically explored for MSfragger ([See here](https://www.nature.com/articles/nmeth.4256), Ver. 2.3), SEQUEST (Thermo Scientific, Ver. 28 Rev. 12), and X!Tandem (www.theGPM.org, Ver. win-11-12-01-1).
+- Search parameter space systematically explored for ([MSfragger](https://www.nature.com/articles/nmeth.4256), Ver. 2.3), ([MS-GF+](https://www.nature.com/articles/ncomms6277)), 
 - Biological datasets from LCQ (3-day old human lens) and LTQ (yeast lysate [Käll, et al. (2007) Nat Methods 4:923-5](https://www.nature.com/articles/nmeth1113)) ion traps were used.
 - Target/decoy databases were used to set common FDR thresholds in each of the 240+ searches.
 Mascot and X!Tandem results files converted to formats compatible with a flexible processing pipeline [Wilmarth, et al. (2009) Ocul Biol Dis Infor 2:223-34](https://link.springer.com/article/10.1007/s12177-009-9042-6).
