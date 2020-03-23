@@ -11,14 +11,17 @@
 * Consistent data processing is essential. This will enable ease of comparison of different results from different studies of core facilities
 
 ### Overview:  
+- The MSconvert was used in the conversion of the .raw files to mzML file f
 - Search parameter space systematically explored for ([MSfragger](https://www.nature.com/articles/nmeth.4256), Ver. 2.3), ([MS-GF+](https://www.nature.com/articles/ncomms6277)),([comet](https://www.ncbi.nlm.nih.gov/pubmed/23148064)), ([Tide_search](http://dx.doi.org/10.1021/pr101196n)) which is an impementation of the SEQUEST database search engine. The comet and the tide search were implemented as a wrpper function from ([crux](http://crux.ms/index.html)). The widely used ([Maxquant](https://www.ncbi.nlm.nih.gov/pubmed/27809316, Ver. 1.6)) was also used in this analysis.
-
 - Biological datasets from Bronchoalveolar lavage fluid (ATSjournals [Malika et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31860339)) was used in this analysis.
-
-- Target/decoy databases were used to set common FDR thresholds in each of the 240+ searches.
-Mascot and X!Tandem results files converted to formats compatible with a flexible processing pipeline [Wilmarth, et al. (2009) Ocul Biol Dis Infor 2:223-34](https://link.springer.com/article/10.1007/s12177-009-9042-6).
-- Consistent processing eliminated biases.
-- The number of matches given identical sets of spectra and identical sets of theoretical peptides at a given peptide error rate could be determined for SEQUEST, Mascot, and X!Tandem.
+- Target/decoy databases were used to set common FDR thresholds in each of the searches.
+- Consistent processing eliminated biases.This was achieved by matching the following:
+** protein database (Human uniprot database)
+** Enzymatic cleavages
+** Fixed and variable modifications ( Cystein was a fixed modification and Methyined was used and a variable modification)
+** Parent ion mass type
+** Parent ion mass tolerance
+- The number of matches given identical sets of spectra and identical sets of theoretical peptides at a given peptide error rate could be determined for MSfragger, Maxquant, MS-GF+, Comet, Tide_search.
 
 ---
 
