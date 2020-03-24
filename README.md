@@ -3,7 +3,9 @@
 
 #### 1. Department of Integrative Biomedical Sciences, Chemical and Systems Biology, University of Cape Town, South Africa
 #### 2. Department of Integrative Biomedical Sciences, Computational Biology and Bioinformatics, University of Cape Town, South Africa
-
+---
+### Abstract
+Search engines forms a crucial and a very important step in the analysis of shotgun proteomics data. These algorithms  attemps to identify peptide sequences from the parent molecular ion which produce them and match them to the theoretical databases. There are different flavours of search engines, both open source and commercial and they both use different scoring functions for specrum identification. The peptide identifications from these set of search engines differ significantly, with individual search engines giving a different set of correcly identified peptides and proteins. This has made it difficult to standardize the proteomics data analysis workflows and the combination of results from different search engines is gaining momentum in the proteomics community. Here we compared different search engines peptide identification rates that are currently being used in the community and we concluded that sequest outperfoms the other search engines but maxquant still remain the most preferred search engine because it is having a simple GUI making it easy to use. 
 ---
 ### Background:  
 * Unbiased comparisons between search programs to determine which performs best are challenging. Currently there is no standard database search engine that is accepted universally within the proteomics community. The HUPO-PSI has made some recommendations which are today used as standards in the proteomics comminity. The standards includes the use of mzML as a standard file format for the spectral data and many if not all search engines have been udated to take mzML file formats for the database search. This gains are timely but more work is still needed to be done in the standardization of the proteomics data processing and and downstream analysis. 
