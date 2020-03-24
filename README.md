@@ -54,7 +54,7 @@ Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolera
 
 ---
 
-Supported by National Research Foundation (NRF)
+Supported by National Research Foundation (NRF), Republic of South Africa
 
 Author contact: javanokendo@gmail.com
 
