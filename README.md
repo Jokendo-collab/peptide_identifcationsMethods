@@ -21,11 +21,9 @@ Parent ion mass type and Parent ion mass tolerance
 - The number of matches given identical sets of spectra and identical sets of theoretical peptides at a given peptide error rate could be determined for MSfragger, Maxquant, MS-GF+, Comet, Tide_search.
 
 ---
-
-![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/database_search_engines.png)
-
 **Data processing workflow.**  Conversion to common file formats at beginning of pipeline ensured consistent data processing for all comparisons. All the MS/MS raw files from the Q-Exacurtive were converted to mzML, HUPO standard file format for the raw data files.
 
+![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/database_search_engines.png)
 ---
 
 ![parent ion tolerances, lens-lcq](images/Picture2.png)
