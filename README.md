@@ -36,7 +36,7 @@ Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolera
 ![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/database_search_engines.png)
 ---
 ### Results table
-|Comet [ref]   | MSfragger     | MaxQuant     | Tide          | MS-GF+      |
+|Comet    | MSfragger     | MaxQuant     | Tide          | MS-GF+      |
 |------------- | ------------- | ------------ | ------------- | ------------|
 |Content Cell  | Content Cell  | Content      | Content       | content     |
 |Content Cell  | Content Cell  | Content      | Content       | Content     |
