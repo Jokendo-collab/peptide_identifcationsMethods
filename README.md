@@ -35,7 +35,6 @@ Human protein database consisting of the reviewed human protein only (downloaded
 ### Open search parameters
 Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolerance and fragment mass tolerance were set to 20 ppm. Mass calibration and parameter optimization were enabled. Two missed cleavages were allowed, and the number of enzymatic termini was set to two. Isotope error was set to 0. The minimum number of fragment peaks required to include a PSM in modelling was set to two, and the minimum number required to report the match was four. A minimum of 15 fragment peaks and the top 100 most intense peaks were used as initial settings.
 
-![workflow](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/studyDesign/Slide1.PNG)
 ---
 ### Results table
 |Comet         | MSfragger     | MaxQuant     | Tide          | MS-GF+      |
@@ -47,7 +46,7 @@ Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolera
 **Parent ion mass tolerance and other search space parameters should be matched.**  We noted that some search engine parameters are operational but other parameters affect scoring functions significanctly. Remaining parameters determine the number of theoretical peptides (search space) scored during searches. Examples of these parameters include protein database used (must be for the same organism and the same version with the same number of protein entries), enzymatic cleavage, fixed and variable modifications, parent ion mass type and parent ion mass tolerance. These parameters should were matched between search engines to ensure unbiased comparisons. *Shown above are several parent ion mass tolerances (fragment ion tolerances were search engine default values). Parent ion mass tolerance optimum was independent of search program.
 
 ---
-![Cluster Analysis results](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/challeng_group_plot.png)
+![Cluster Analysis results](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/studyDesign/Slide2.PNG)
 ---
 **SEQUEST outperformed Mascot and X!Tandem.**  Parent ion monoisotopic mass tolerance of 4.0 Da was used. X!Tandem uses monoisotopic parent ion masses. Mascot requires the same  parent ion and fragment ion mass types. Optimum fragment ion tolerances were used for each search engine. X!Tandem dynamic ranges of 250 (LCQ) or 500 (LTQ) and 75 peaks improved IDs over default settings by 2-3%. Automatic modifications and refinement searches were not used for X!Tandem. The last column indicates relative peptide identification performance where SEQUEST clearly outperformed the other search engines. Transformed scores were used: PeptideProphet-like function for SEQUEST, (Ion Score)-(Identity Score) for Mascot, and -Log(expectation score) for X!Tandem. Using XCorr, Ion Score, or Hypergeometric score reduced SEQUEST’s gain to 15% for LCQ and 10% for LTQ. Default settings for Mascot (1.2M Da, 0.6M Da) reduced IDs by 30%. X!Tandem defaults (-0.5/+3.0M, 0.4M) were 6% below optimum. A 2.5 Da average parent ion tolerance was the SEQUEST default.
 > We need to understand how different search engines scores their data based on the available information from the respective publication papers.
