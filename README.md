@@ -14,7 +14,7 @@ Search engines forms a crucial and a very important step in the analysis of shot
 
 ### Overview:  
 - The MSconvert was used in the conversion of the .raw files to mzML file f
-- Search parameter space systematically explored for ([MSfragger](https://www.nature.com/articles/nmeth.4256), Ver. 2.3)), ([MS-GF+](https://www.nature.com/articles/ncomms6277)),([comet](https://www.ncbi.nlm.nih.gov/pubmed/23148064)), ([Tide_search](http://dx.doi.org/10.1021/pr101196n)) which is an impementation of the SEQUEST database search engine. The comet and the tide search were implemented as a wrpper function from ([crux](http://crux.ms/index.html)). The widely used ([Maxquant](https://www.ncbi.nlm.nih.gov/pubmed/27809316, Ver. 1.6)) was also used in this analysis.
+- Search parameter space systematically explored for ([MSfragger](https://www.nature.com/articles/nmeth.4256), V.2.3)), ([MS-GF+](https://www.nature.com/articles/ncomms6277)),([comet](https://www.ncbi.nlm.nih.gov/pubmed/23148064)), ([Tide_search](http://dx.doi.org/10.1021/pr101196n)) which is an impementation of the SEQUEST database search engine. The comet and the tide search were implemented as a wrpper function from ([crux](http://crux.ms/index.html)). The widely used ([Maxquant](https://www.ncbi.nlm.nih.gov/pubmed/27809316)) was also used in this analysis.
 - Biological datasets from Bronchoalveolar lavage fluid (ATSjournals [Malika et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31860339)) was used in this analysis.
 - Target/decoy databases were used to set common FDR thresholds in each of the searches.
 - Consistent processing eliminated biases.This was achieved by matching the following:
@@ -27,7 +27,7 @@ Parent ion mass type and Parent ion mass tolerance
 We used data from from a Human Lung-oriented Approach to the Correlates of Risk in Tuberculosis- The TB-HART study(Human Lung Lung-Approach for Correlates of Risk in TB) for details (see [Malika et al. (2019)](https://www.ncbi.nlm.nih.gov/pubmed/31860339)) publication. We had a broad spectrum of TB patients which were divided into four different phenotypes (previous TB,recurrent TB, Latent TB and sterilizing immunizers) based on the clinical classification of TB patients. The bronchscopy was then done and the live BCG and purified protein derivatives (PPD) were instilled into the human lungs and after 72 hours the BALF was harvested and used to do proteomic, transcriptomic and immunology assays. We perfomed open search, and label free quantification comparisons using MSfragger,MS-GF+,Comet, Tide_search and Maxquant database search engines). For identification, we estimated the false-discovery rate (FDR) using the target-decoy based approach (ref).
 
 ![Experimental design](https://github.com/javanOkendo/peptide_identifcationsMethods/blob/master/studyDesign/Slide1.PNG)
->Malika *et al 2019 
+>Malika *et al* 2019 
 ---
 ### Data processing workflow
 Conversion to common file formats at beginning of pipeline ensured consistent data processing for all comparisons. All the MS/MS raw files from the Q-Exacurtive were converted to mzML using MSconvert, HUPO standard file format for the raw data files.
