@@ -1,0 +1,963 @@
+{
+  "marshallableParameterType": "identification_parameters",
+  "name": "searchguisettings",
+  "description": "Fixed: Carbamidomethylation of C, Acetylation of protein N-term.\nVariable: Oxidation of M.\nPrecursor Tolerance: 20.0 ppm.\nDB: /scratch/oknjav001/bal_mzML_raw_files/searchGUI/SearchGUI-3.3.17/searchGUIAnalysis/HUMAN_uniprot-proteome_UP000005640_SG_191023_74034_concatenated_target_decoy.fasta.\n",
+  "defaultDescription": true,
+  "searchParameters": {
+    "precursorAccuracyType": "PPM",
+    "fragmentAccuracyType": "DA",
+    "precursorTolerance": 20.0,
+    "precursorToleranceDalton": 0.5,
+    "fragmentIonMZTolerance": 0.5,
+    "ptmSettings": {
+      "fixedModifications": [
+        "Carbamidomethylation of C",
+        "Acetylation of protein N-term"
+      ],
+      "variableModifications": [
+        "Oxidation of M"
+      ],
+      "refinementVariableModifications": [],
+      "refinementFixedModifications": [
+        "Carbamidomethylation of C",
+        "Acetylation of protein N-term"
+      ],
+      "colors": {
+        "Oxidation of M": {
+          "value": -16776961,
+          "falpha": 0.0
+        },
+        "Acetylation of protein N-term": {
+          "value": -6711040,
+          "falpha": 0.0
+        },
+        "Carbamidomethylation of C": {
+          "value": -4144960,
+          "falpha": 0.0
+        }
+      },
+      "backUp": {
+        "Oxidation of M": {
+          "type": 0,
+          "name": "Oxidation of M",
+          "shortName": "ox",
+          "mass": 15.99491461956,
+          "neutralLosses": [
+            {
+              "composition": {
+                "atomChain": [
+                  {
+                    "atomSymbol": "C",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "H",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "H",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "H",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "H",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "O",
+                    "isotope": 0
+                  },
+                  {
+                    "atomSymbol": "S",
+                    "isotope": 0
+                  }
+                ],
+                "mass1": -1.0,
+                "stringValue1": "CH(4)OS"
+              },
+              "name": "CH4OS",
+              "fixed": false
+            }
+          ],
+          "reporterIons": [],
+          "pattern": {
+            "length": 0,
+            "residueTargeted": {
+              "0": [
+                "M"
+              ]
+            }
+          },
+          "atomChainAdded": {
+            "atomChain": [
+              {
+                "atomSymbol": "O",
+                "isotope": 0
+              }
+            ],
+            "mass1": 15.99491461956,
+            "stringValue1": "O"
+          },
+          "atomChainRemoved": {
+            "atomChain": [],
+            "mass1": -1.0
+          },
+          "cvTerm": {
+            "ontology": "UNIMOD",
+            "accession": "UNIMOD:35",
+            "name": "Oxidation"
+          }
+        },
+        "Acetylation of protein N-term": {
+          "type": 1,
+          "name": "Acetylation of protein N-term",
+          "shortName": "ace",
+          "mass": 42.0105646837,
+          "neutralLosses": [],
+          "reporterIons": [],
+          "pattern": {
+            "length": 0
+          },
+          "atomChainAdded": {
+            "atomChain": [
+              {
+                "atomSymbol": "C",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "C",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "H",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "H",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "O",
+                "isotope": 0
+              }
+            ],
+            "mass1": 42.0105646837,
+            "stringValue1": "C(2)H(2)O"
+          },
+          "atomChainRemoved": {
+            "atomChain": [],
+            "mass1": -1.0
+          },
+          "cvTerm": {
+            "ontology": "UNIMOD",
+            "accession": "UNIMOD:1",
+            "name": "Acetyl"
+          }
+        },
+        "Carbamidomethylation of C": {
+          "type": 0,
+          "name": "Carbamidomethylation of C",
+          "shortName": "cmm",
+          "mass": 57.02146372057,
+          "neutralLosses": [],
+          "reporterIons": [],
+          "pattern": {
+            "length": 0,
+            "residueTargeted": {
+              "0": [
+                "C"
+              ]
+            }
+          },
+          "atomChainAdded": {
+            "atomChain": [
+              {
+                "atomSymbol": "C",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "C",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "H",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "H",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "H",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "N",
+                "isotope": 0
+              },
+              {
+                "atomSymbol": "O",
+                "isotope": 0
+              }
+            ],
+            "mass1": 57.02146372057,
+            "stringValue1": "C(2)H(3)NO"
+          },
+          "atomChainRemoved": {
+            "atomChain": [],
+            "mass1": -1.0
+          },
+          "cvTerm": {
+            "ontology": "UNIMOD",
+            "accession": "UNIMOD:4",
+            "name": "Carbamidomethyl"
+          }
+        }
+      }
+    },
+    "nMissedCleavages": 2,
+    "digestionPreferences": {
+      "cleavagePreference": "enzyme",
+      "enzymes": [
+        {
+          "id": 0,
+          "name": "Trypsin",
+          "aminoAcidBefore": [],
+          "aminoAcidAfter": [],
+          "restrictionBefore": [],
+          "restrictionAfter": [],
+          "aminoAcidBeforeSet": [
+            "R",
+            "K"
+          ],
+          "aminoAcidAfterSet": [],
+          "restrictionBeforeSet": [],
+          "restrictionAfterSet": [
+            "P"
+          ],
+          "isSemiSpecific": false,
+          "isWholeProtein": false,
+          "cvTerm": {
+            "ontology": "PSI-MS",
+            "accession": "MS:1001251",
+            "name": "Trypsin"
+          }
+        }
+      ],
+      "nMissedCleavages": {
+        "Trypsin": 2
+      },
+      "specificity": {
+        "Trypsin": "specific"
+      }
+    },
+    "fastaFile": {
+      "path": "/scratch/oknjav001/bal_mzML_raw_files/searchGUI/SearchGUI-3.3.17/searchGUIAnalysis/HUMAN_uniprot-proteome_UP000005640_SG_191023_74034_concatenated_target_decoy.fasta"
+    },
+    "parametersFile": {},
+    "forwardIons": [
+      1
+    ],
+    "rewindIons": [
+      4
+    ],
+    "minChargeSearched": {
+      "sign": 1,
+      "value": 2
+    },
+    "maxChargeSearched": {
+      "sign": 1,
+      "value": 4
+    },
+    "minIsotopicCorrection": 0,
+    "maxIsotopicCorrection": 1,
+    "refMass": 2000.0,
+    "algorithmParameters": {
+      "1": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.OmssaParameters",
+        "data": {
+          "maxEValue": 100.0,
+          "hitListLength": 10,
+          "minimalChargeForMultipleChargedFragments": {
+            "sign": 1,
+            "value": 3
+          },
+          "minPeptideLength": 7,
+          "maxPeptideLength": 50,
+          "removePrecursor": false,
+          "scalePrecursor": true,
+          "estimateCharge": true,
+          "selectedOutput": "OMX",
+          "memoryMappedSequenceLibraries": false,
+          "numberOfItotopicPeaks": 0,
+          "neutronThreshold": 1446.94,
+          "lowIntensityCutOff": 0.0,
+          "highIntensityCutOff": 0.2,
+          "intensityCutOffIncrement": 5.0E-4,
+          "singleChargeWindow": 27,
+          "doubleChargeWindow": 14,
+          "nPeaksInSingleChargeWindow": 2,
+          "nPeaksInDoubleChargeWindow": 2,
+          "maxHitsPerSpectrumPerCharge": 30,
+          "nAnnotatedMostIntensePeaks": 6,
+          "minAnnotatedPeaks": 2,
+          "minPeaks": 4,
+          "cleaveNtermMethionine": true,
+          "maxMzLadders": 128,
+          "maxFragmentCharge": 2,
+          "fractionOfPeaksForChargeEstimation": 0.95,
+          "determineChargePlusOneAlgorithmically": true,
+          "searchPositiveIons": true,
+          "minPrecPerSpectrum": 1,
+          "searchForwardFragmentFirst": false,
+          "searchRewindFragments": true,
+          "maxFragmentPerSeries": 100,
+          "useCorrelationCorrectionScore": true,
+          "consecutiveIonProbability": 0.5,
+          "iterativeSequenceEvalue": 0.0,
+          "iterativeReplaceEvalue": 0.0,
+          "iterativeSpectrumEvalue": 0.01,
+          "noProlineRuleSeries": [],
+          "ptmIndexes": {
+            "119": "Carbamidomethylation of C",
+            "120": "Acetylation of protein N-term",
+            "121": "Oxidation of M"
+          }
+        }
+      },
+      "2": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.XtandemParameters",
+        "data": {
+          "maxEValue": 0.01,
+          "outputResults": "all",
+          "dynamicRange": 100.0,
+          "nPeaks": 50,
+          "minPrecursorMass": 500.0,
+          "minFragmentMz": 200.0,
+          "minPeaksPerSpectrum": 5,
+          "proteinQuickAcetyl": false,
+          "quickPyrolidone": true,
+          "refine": true,
+          "refineSemi": false,
+          "refinePointMutations": false,
+          "refineSpectrumSynthesis": true,
+          "refineUnanticipatedCleavages": true,
+          "refineSnaps": true,
+          "maximumExpectationValueRefinement": 0.01,
+          "potentialModificationsForFullRefinment": false,
+          "skylinePath": "",
+          "outputProteins": true,
+          "outputSequences": true,
+          "outputSpectra": true,
+          "outputHistograms": true,
+          "stpBias": false,
+          "useNoiseSuppression": false,
+          "proteinPtmComplexity": 6.0
+        }
+      },
+      "3": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.PepnovoParameters",
+        "data": {
+          "hitListLength": 10,
+          "estimateCharge": true,
+          "correctPrecursorMass": false,
+          "discardLowQualitySpectra": true,
+          "fragmentationModel": "CID_IT_TRYP",
+          "generateQuery": false
+        }
+      },
+      "4": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.AndromedaParameters",
+        "data": {
+          "maxPeptideMass": 4600.0,
+          "maxCombinations": 250,
+          "topPeaks": 8,
+          "topPeaksWindow": 100,
+          "includeWater": true,
+          "includeAmmonia": true,
+          "dependentLosses": true,
+          "fragmentAll": false,
+          "empiricalCorrection": true,
+          "higherCharge": true,
+          "fragmentationMethod": "CID",
+          "maxNumberOfModifications": 5,
+          "minPeptideLengthNoEnzyme": 7,
+          "maxPeptideLengthNoEnzyme": 50,
+          "equalIL": false,
+          "numberOfCandidates": 10,
+          "ptmIndexes": {
+            "0": "Acetylation of K",
+            "1": "Acetylation of peptide N-term",
+            "2": "Acetylation of protein N-term",
+            "3": "Carbamidomethylation of C",
+            "4": "Carbamidomethylation of E",
+            "5": "Carbamidomethylation of K",
+            "6": "Oxidation of M",
+            "7": "Oxidation of P",
+            "8": "Oxidation of K",
+            "9": "Oxidation of C",
+            "10": "Dioxidation of M",
+            "11": "Dioxidation of W",
+            "12": "Trioxidation of C",
+            "13": "Phosphorylation of S",
+            "14": "Phosphorylation of T",
+            "15": "Phosphorylation of Y",
+            "16": "Arginine 13C(6)",
+            "17": "Arginine 13C(6) 15N(4)",
+            "18": "Lysine 2H(4)",
+            "19": "Lysine 13C(6)",
+            "20": "Lysine 13C(6) 15N(2)",
+            "21": "Proline 13C(5)",
+            "22": "4-Hydroxyproline",
+            "23": "Leucine 13C(6) 15N(1)",
+            "24": "Isoleucine 13C(6) 15N(1)",
+            "25": "Label of K 2H(4)",
+            "26": "Dimethylation of K 2H(6)",
+            "27": "Dimethylation of peptide N-term 2H(4)",
+            "28": "Dimethylation of peptide N-term 2H(6)",
+            "29": "Dimethylation of peptide N-term 2H(6) 13C(2)",
+            "30": "Dimethylation of K 2H(6) 13C(2)",
+            "31": "18O(2) of peptide C-term",
+            "32": "18O(1) of peptide C-term",
+            "33": "ICAT-O",
+            "34": "ICAT-9",
+            "35": "ICPL0 of K",
+            "36": "ICPL0 of peptide N-term",
+            "37": "ICPL4 of K",
+            "38": "ICPL4 of peptide N-term",
+            "39": "ICPL6 of K",
+            "40": "ICPL6 of peptide N-term",
+            "41": "ICPL10 of K",
+            "42": "ICPL10 of peptide N-term",
+            "43": "mTRAQ of K light",
+            "44": "mTRAQ of peptide N-term light",
+            "45": "mTRAQ of K 13C(3) 15N",
+            "46": "mTRAQ of peptide N-term 13C(3) 15N",
+            "47": "mTRAQ of 13C(6) 15N(2)",
+            "48": "mTRAQ of peptide N-term 13C(6) 15N(2)",
+            "49": "iTRAQ 4-plex of peptide N-term",
+            "50": "iTRAQ 4-plex of K",
+            "51": "iTRAQ 4-plex of Y",
+            "52": "iTRAQ 8-plex of peptide N-term",
+            "53": "iTRAQ 8-plex of K",
+            "54": "iTRAQ 8-plex of Y",
+            "55": "TMT 2-plex of peptide N-term",
+            "56": "TMT 2-plex of K",
+            "57": "TMT 6-plex of peptide N-term",
+            "58": "TMT 6-plex of K",
+            "59": "TMT 10-plex of peptide N-term",
+            "60": "TMT 10-plex of K",
+            "61": "Ubiquitination of K",
+            "62": "Methylation of K",
+            "63": "Methylation of R",
+            "64": "Methylation of E",
+            "65": "Methylation of C",
+            "66": "Methylation of D",
+            "67": "Methylation of S",
+            "68": "Dimethylation of K",
+            "69": "Dimethylation of peptide N-term",
+            "70": "Dimethylation of R",
+            "71": "Trimethylation of K",
+            "72": "Trimethylation of R",
+            "73": "Trimethylation of protein N-term A",
+            "74": "Pyrolidone from E",
+            "75": "Pyrolidone from Q",
+            "76": "Pyrolidone from carbamidomethylated C",
+            "77": "HexNAc of S",
+            "78": "HexNAc of T",
+            "79": "Hex(1)NAc(1) of S",
+            "80": "Hex(1)NAc(1) of T",
+            "81": "Hexose of K",
+            "82": "Hex(5) HexNAc(4) NeuAc(2) of N",
+            "83": "Hex(5) HexNAc(4) NeuAc(2) Na of N",
+            "84": "SUMO-2/3 Q87R",
+            "85": "Deamidation of N",
+            "86": "Deamidation of Q",
+            "87": "Deamidation of N 18O",
+            "88": "Carbamilation of protein N-term",
+            "89": "Carbamilation of K",
+            "90": "Acetaldehyde +26",
+            "91": "Sodium adduct to D",
+            "92": "Sodium adduct to E",
+            "93": "Amidation of the peptide C-term",
+            "94": "Amidation of the protein C-term",
+            "95": "Sulfonation of S",
+            "96": "Sulfonation of T",
+            "97": "Sulfonation of Y",
+            "98": "Palmitoylation of C",
+            "99": "Palmitoylation of K",
+            "100": "Palmitoylation of S",
+            "101": "Palmitoylation of T",
+            "102": "Palmitoylation of protein N-term",
+            "103": "Formylation of K",
+            "104": "Formylation of S",
+            "105": "Formylation of T",
+            "106": "Formylation of peptide N-term",
+            "107": "Formylation of protein N-term",
+            "108": "Propionyl of K light",
+            "109": "Propionyl of peptide N-term light",
+            "110": "Propionyl of K heavy",
+            "111": "Propionyl of peptide N-term heavy",
+            "112": "Trideuterated Methyl Ester of D",
+            "113": "Trideuterated Methyl Ester of E",
+            "114": "Trideuterated Methyl Ester of K",
+            "115": "Trideuterated Methyl Ester of R",
+            "116": "Trideuterated Methyl Ester of peptide C-term",
+            "117": "Carboxymethylation of C",
+            "118": "Farnesylation of C",
+            "119": "Geranyl-geranyl of C",
+            "120": "Guanidination of K",
+            "121": "Guanidination of peptide N-term",
+            "122": "Homoserine of peptide C-term M",
+            "123": "Homoserine lactone of peptide C-term M",
+            "124": "Lipoyl of K",
+            "125": "Methylthio of D",
+            "126": "Methylthio of N",
+            "127": "Methylthio of C",
+            "128": "NIPCAM of C",
+            "129": "Propionamide of C",
+            "130": "Propionamide of K",
+            "131": "Propionamide of peptide N-term",
+            "132": "Pyridylethyl of C",
+            "133": "Dehydration of S",
+            "134": "Dehydration of T",
+            "135": "Nethylmaleimide of C",
+            "136": "Glutathione of C",
+            "137": "FormylMet of protein N-term",
+            "138": "Didehydro of T",
+            "139": "Thioacyl of peptide N-term",
+            "140": "Diiodination of Y"
+          },
+          "decoyMode": "none"
+        }
+      },
+      "5": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.MsAmandaParameters",
+        "data": {
+          "generateDecoy": false,
+          "instrumentID": "b, y",
+          "maxRank": 10,
+          "monoisotopic": true,
+          "lowMemoryMode": true
+        }
+      },
+      "7": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.MsgfParameters",
+        "data": {
+          "searchDecoyDatabase": true,
+          "instrumentID": 3,
+          "fragmentationType": 3,
+          "protocol": 5,
+          "minPeptideLength": 7,
+          "maxPeptideLength": 50,
+          "numberOfSpectrumMarches": 10,
+          "additionalOutput": false,
+          "lowerIsotopeErrorRange": -1,
+          "upperIsotopeErrorRange": 2,
+          "numberTolerableTermini": 2,
+          "numberOfPtmsPerPeptide": 2
+        }
+      },
+      "8": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.DirecTagParameters",
+        "data": {
+          "ticCutoffPercentage": 85.0,
+          "maxPeakCount": 100,
+          "numIntensityClasses": 3,
+          "adjustPrecursorMass": false,
+          "minPrecursorAdjustment": -2.5,
+          "maxPrecursorAdjustment": 2.5,
+          "precursorAdjustmentStep": 0.1,
+          "numChargeStates": 3,
+          "outputSuffix": "",
+          "useChargeStateFromMS": false,
+          "duplicateSpectra": true,
+          "deisotopingMode": 0,
+          "isotopeMzTolerance": 0.25,
+          "complementMzTolerance": 0.5,
+          "tagLength": 4,
+          "maxDynamicMods": 2,
+          "maxTagCount": 10,
+          "intensityScoreWeight": 1.0,
+          "mzFidelityScoreWeight": 1.0,
+          "complementScoreWeight": 1.0,
+          "variablePtms": []
+        }
+      },
+      "10": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.CometParameters",
+        "data": {
+          "numberOfSpectrumMatches": 10,
+          "maxVariableMods": 10,
+          "requireVariableMods": false,
+          "minPeaks": 10,
+          "minPeakIntensity": 0.0,
+          "removePrecursor": 0,
+          "removePrecursorTolerance": 1.5,
+          "lowerClearMzRange": 0.0,
+          "upperClearMzRange": 0.0,
+          "enzymeType": 2,
+          "isotopeCorrection": 1,
+          "minPrecursorMass": 0.0,
+          "maxPrecursorMass": 10000.0,
+          "maxFragmentCharge": 3,
+          "removeMethionine": false,
+          "batchSize": 0,
+          "theoreticalFragmentIonsSumOnly": false,
+          "fragmentBinOffset": 0.25,
+          "useSparseMatrix": true,
+          "selectedOutputFormat": "PepXML",
+          "printExpectScore": true
+        }
+      },
+      "27": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.PNovoParameters",
+        "data": {
+          "numberOfPeptides": 10,
+          "lowerPrecursorMass": 300,
+          "upperPrecursorMass": 5000,
+          "acticationType": "HCD"
+        }
+      },
+      "28": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.TideParameters",
+        "data": {
+          "fastIndexFolderName": "fasta-index",
+          "maxVariablePtmsPerTypePerPeptide": 2,
+          "minPeptideLength": 7,
+          "maxPeptideLength": 50,
+          "minPrecursorMass": 200.0,
+          "maxPrecursorMass": 7200.0,
+          "decoyFormat": "none",
+          "keepTerminalAminoAcids": "NC",
+          "decoySeed": 1,
+          "outputFolderName": "crux-output",
+          "printPeptides": false,
+          "verbosity": 30,
+          "monoisotopicPrecursor": true,
+          "clipNtermMethionine": false,
+          "digestionType": "full-digest",
+          "computeSpScore": false,
+          "numberOfSpectrumMatches": 10,
+          "computeExactPValues": false,
+          "minSpectrumMz": 0.0,
+          "minSpectrumPeaks": 20,
+          "spectrumCharges": "all",
+          "removePrecursor": false,
+          "removePrecursorTolerance": 1.5,
+          "printProgressIndicatorSize": 1000,
+          "useFlankingPeaks": false,
+          "useNeutralLossPeaks": false,
+          "mzBinWidth": 0.02,
+          "mzBinOffset": 0.0,
+          "concatenateTargetDecoy": false,
+          "textOutput": true,
+          "sqtOutput": false,
+          "pepXmlOutput": false,
+          "mzidOutput": false,
+          "pinOutput": false,
+          "removeTempFolders": true
+        }
+      },
+      "13": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.MyriMatchParameters",
+        "data": {
+          "minPeptideLength": 7,
+          "maxPeptideLength": 50,
+          "numberOfSpectrumMatches": 10,
+          "ticCutoffPercentage": 0.98,
+          "maxDynamicMods": 2,
+          "minTerminiCleavages": 2,
+          "minPrecursorMass": 0.0,
+          "maxPrecursorMass": 10000.0,
+          "useSmartPlusThreeModel": true,
+          "computeXCorr": false,
+          "numIntensityClasses": 3,
+          "classSizeMultiplier": 2,
+          "numberOfBatches": 50,
+          "lowerIsotopeCorrection": -1,
+          "upperIsotopeCorrection": 2,
+          "fragmentationRule": "CID",
+          "maxPeakCount": 300,
+          "outputFormat": "mzIdentML"
+        }
+      },
+      "29": {
+        "type": "com.compomics.util.experiment.identification.identification_parameters.tool_specific.NovorParameters",
+        "data": {
+          "fragmentationMethod": "HCD",
+          "massAnalyzer": "FT"
+        }
+      }
+    }
+  },
+  "annotationSettings": {
+    "yAxisZoomExcludesBackgroundPeaks": true,
+    "showAllPeaks": false,
+    "intensityThresholdType": "percentile",
+    "intensityLimit": 0.75,
+    "automaticAnnotation": true,
+    "selectedIonsMap": {
+      "PRECURSOR_ION": [
+        0
+      ],
+      "TAG_FRAGMENT_ION": [
+        1,
+        4
+      ],
+      "IMMONIUM_ION": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "PEPTIDE_FRAGMENT_ION": [
+        1,
+        4
+      ],
+      "RELATED_ION": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "neutralLossesList": [
+      {
+        "composition": {
+          "atomChain": [
+            {
+              "atomSymbol": "C",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "O",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "S",
+              "isotope": 0
+            }
+          ],
+          "mass1": -1.0,
+          "stringValue1": "CH(4)OS"
+        },
+        "name": "CH4OS",
+        "fixed": false
+      },
+      {
+        "composition": {
+          "atomChain": [
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "O",
+              "isotope": 0
+            }
+          ],
+          "mass1": -1.0,
+          "stringValue1": "H(2)O"
+        },
+        "name": "H2O",
+        "fixed": false,
+        "aminoAcids": [
+          "D",
+          "E",
+          "S",
+          "T"
+        ]
+      },
+      {
+        "composition": {
+          "atomChain": [
+            {
+              "atomSymbol": "N",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            },
+            {
+              "atomSymbol": "H",
+              "isotope": 0
+            }
+          ],
+          "mass1": -1.0,
+          "stringValue1": "H(3)N"
+        },
+        "name": "NH3",
+        "fixed": false,
+        "aminoAcids": [
+          "K",
+          "N",
+          "Q",
+          "R"
+        ]
+      }
+    ],
+    "neutralLossesAuto": true,
+    "reporterIons": true,
+    "relatedIons": true,
+    "fragmentIonAccuracy": 0.5,
+    "fragmentIonPpm": false,
+    "showForwardIonDeNovoTags": false,
+    "showRewindIonDeNovoTags": false,
+    "deNovoCharge": 1,
+    "highResolutionAnnotation": true,
+    "tiesResolution": "mostAccurateMz"
+  },
+  "sequenceMatchingPreferences": {
+    "sequenceMatchingType": "indistiguishableAminoAcids",
+    "limitX": 0.25,
+    "peptideMapperType": "fm_index"
+  },
+  "peptideVariantsPreferences": {
+    "useSpecificCount": false,
+    "nVariants": 0,
+    "nAaDeletions": 0,
+    "nAaInsertions": 0,
+    "nAaSubstitutions": 0,
+    "nAaSwap": 0,
+    "aaSubstitutionMatrix": {
+      "name": "No Substitution",
+      "description": "No substitution",
+      "substitutions": {},
+      "reverseMap": {}
+    }
+  },
+  "genePreferences": {
+    "autoUpdate": true,
+    "useGeneMapping": true,
+    "selectedBackgroundSpecies": 9606
+  },
+  "psmScoringPreferences": {
+    "spectrumMatchingScores": {
+      "3": [
+        1
+      ],
+      "8": [
+        1
+      ],
+      "27": [
+        1
+      ]
+    },
+    "defaultScores": [
+      -1
+    ],
+    "minDecoysInBin": 10
+  },
+  "peptideAssumptionFilter": {
+    "minPepLength": 7,
+    "maxPepLength": 50,
+    "maxMassDeviation": 20.0,
+    "isPpm": true,
+    "unknownPtm": true,
+    "minMissedCleavages": 0,
+    "maxMissedCleavages": 2,
+    "minIsotopes": 0,
+    "maxIsotopes": 1
+  },
+  "ptmScoringPreferences": {
+    "flr": 1.0,
+    "probabilitsticScoreCalculation": true,
+    "selectedProbabilisticScore": "PhosphoRS",
+    "estimateFlr": false,
+    "probabilisticScoreThreshold": 95.0,
+    "probabilisticScoreNeutralLosses": false,
+    "sequenceMatchingPreferences": {
+      "sequenceMatchingType": "aminoAcid",
+      "peptideMapperType": "fm_index"
+    },
+    "alignNonConfidentPTMs": true
+  },
+  "proteinInferencePreferences": {
+    "proteinSequenceDatabase": {
+      "path": "/scratch/oknjav001/bal_mzML_raw_files/searchGUI/SearchGUI-3.3.17/searchGUIAnalysis/HUMAN_uniprot-proteome_UP000005640_SG_191023_74034_concatenated_target_decoy.fasta"
+    },
+    "simplifyProteinGroups": true,
+    "simplifyGroupsScore": true,
+    "simplifyGroupsEvidence": true,
+    "simplifyGroupsEnzymaticity": true,
+    "simplifyGroupsUncharacterized": true
+  },
+  "idValidationPreferences": {
+    "defaultProteinFDR": 1.0,
+    "defaultPeptideFDR": 1.0,
+    "defaultPsmFDR": 1.0,
+    "separatePeptides": true,
+    "separatePsms": true,
+    "mergeSmallSubgroups": true,
+    "validationQCPreferences": {
+      "dbSize": false,
+      "firstDecoy": true,
+      "confidenceMargin": 1.0
+    }
+  },
+  "fractionSettings": {
+    "proteinConfidenceMwPlots": 95.0,
+    "fractionMolecularWeightRanges": {}
+  }
+}

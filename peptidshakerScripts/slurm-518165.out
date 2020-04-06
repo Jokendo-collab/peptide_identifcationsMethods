@@ -1,0 +1,1711 @@
+Mon Apr 06 09:33:57 SAST 2020 Import process for cometProteinID (Sample: combinedData, Replicate: 27)
+
+Mon Apr 06 09:33:58 SAST 2020 Importing sequences from HUMAN_uniprot-proteome_UP000005640_SG_191023_74034_concatenated_target_decoy.fasta.
+ 0%
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:34:28 SAST 2020 FASTA file import completed.
+Mon Apr 06 09:34:28 SAST 2020 Importing gene mappings.
+Mon Apr 06 09:34:30 SAST 2020 Establishing local database connection.
+Mon Apr 06 09:34:36 SAST 2020 Reading identification files.
+Mon Apr 06 09:34:36 SAST 2020 Parsing 170909_CH_C1_T006_FT.comet.pep.xml.
+Mon Apr 06 09:35:28 SAST 2020 Loading spectra for 170909_CH_C1_T006_FT.comet.pep.xml.
+Mon Apr 06 09:35:28 SAST 2020 Importing 170909_CH_C1_T006_FT.mgf
+Mon Apr 06 09:35:29 SAST 2020 170909_CH_C1_T006_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:35:29 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:35:30 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:35:31 SAST 2020 Importing PSMs from 170909_CH_C1_T006_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:36:16 SAST 2020 79 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 09:36:16 SAST 2020 18901 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:36:16 SAST 2020     - 64.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:36:16 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:36:16 SAST 2020     - 34.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:36:16 SAST 2020 Parsing 170909_CH_C1_T006_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:37:42 SAST 2020 Loading spectra for 170909_CH_C1_T006_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:37:42 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:37:42 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:37:43 SAST 2020 Importing PSMs from 170909_CH_C1_T006_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:37:47 SAST 2020 5410 identified spectra (13.5%) did not present a valid peptide.
+Mon Apr 06 09:37:47 SAST 2020 104458 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:37:47 SAST 2020     - 43.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:37:47 SAST 2020     - 56.1% unrecognized modifications.
+Mon Apr 06 09:37:47 SAST 2020 Parsing 170909_CH_C1_T006_FT.t.xml.
+Mon Apr 06 09:38:25 SAST 2020 Loading spectra for 170909_CH_C1_T006_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:25 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:25 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:25 SAST 2020 Importing PSMs from 170909_CH_C1_T006_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:38:26 SAST 2020 722 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 09:38:26 SAST 2020 1193 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:38:26 SAST 2020     - 6.1% peptide mapping to both target and decoy.
+Mon Apr 06 09:38:26 SAST 2020     - 51.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:38:26 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:38:26 SAST 2020     - 42.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:38:26 SAST 2020 Parsing 170909_CH_C1_T006_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:28 SAST 2020 Loading spectra for 170909_CH_C1_T006_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:28 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:29 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:38:30 SAST 2020 Importing PSMs from 170909_CH_C1_T006_FT.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 80%
+Mon Apr 06 09:38:31 SAST 2020 274811 identified spectra (86.2%) did not present a valid peptide.
+Mon Apr 06 09:38:31 SAST 2020 374353 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:38:31 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:38:31 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:38:31 SAST 2020 Parsing 170909_CH_C1_T007_FT_R2.comet.pep.xml.
+Mon Apr 06 09:39:35 SAST 2020 Loading spectra for 170909_CH_C1_T007_FT_R2.comet.pep.xml.
+Mon Apr 06 09:39:35 SAST 2020 Importing 170909_CH_C1_T007_FT_R2.mgf
+Mon Apr 06 09:39:37 SAST 2020 170909_CH_C1_T007_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:39:37 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:39:37 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:39:37 SAST 2020 Importing PSMs from 170909_CH_C1_T007_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:39:38 SAST 2020 103 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 09:39:38 SAST 2020 20610 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:39:38 SAST 2020     - 68.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:39:38 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:39:38 SAST 2020     - 31.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:39:38 SAST 2020 Parsing 170909_CH_C1_T007_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:40:57 SAST 2020 Loading spectra for 170909_CH_C1_T007_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:40:57 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:40:58 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:40:58 SAST 2020 Importing PSMs from 170909_CH_C1_T007_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:40:59 SAST 2020 5747 identified spectra (16.5%) did not present a valid peptide.
+Mon Apr 06 09:40:59 SAST 2020 81003 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:40:59 SAST 2020     - 45.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:40:59 SAST 2020     - 54.3% unrecognized modifications.
+Mon Apr 06 09:40:59 SAST 2020 Parsing 170909_CH_C1_T007_FT_R2.t.xml.
+Mon Apr 06 09:41:31 SAST 2020 Loading spectra for 170909_CH_C1_T007_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:31 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:31 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:31 SAST 2020 Importing PSMs from 170909_CH_C1_T007_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:41:31 SAST 2020 583 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 09:41:31 SAST 2020 946 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:41:31 SAST 2020     - 8.5% peptide mapping to both target and decoy.
+Mon Apr 06 09:41:31 SAST 2020     - 45.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:41:31 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:41:31 SAST 2020     - 46.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:41:31 SAST 2020 Parsing 170909_CH_C1_T007_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:33 SAST 2020 Loading spectra for 170909_CH_C1_T007_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:33 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:34 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:41:34 SAST 2020 Importing PSMs from 170909_CH_C1_T007_FT_R2.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 70% 80% 80% 80% 80% 90%
+Mon Apr 06 09:41:35 SAST 2020 264835 identified spectra (90.9%) did not present a valid peptide.
+Mon Apr 06 09:41:35 SAST 2020 340282 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:41:35 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:41:35 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:41:35 SAST 2020 Parsing 170909_CH_C1_T009_FT.comet.pep.xml.
+Mon Apr 06 09:42:45 SAST 2020 Loading spectra for 170909_CH_C1_T009_FT.comet.pep.xml.
+Mon Apr 06 09:42:45 SAST 2020 Importing 170909_CH_C1_T009_FT.mgf
+Mon Apr 06 09:42:46 SAST 2020 170909_CH_C1_T009_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:42:46 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:42:47 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:42:47 SAST 2020 Importing PSMs from 170909_CH_C1_T009_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:42:48 SAST 2020 68 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 09:42:48 SAST 2020 20972 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:42:48 SAST 2020     - 65.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:42:48 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:42:48 SAST 2020     - 33.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:42:48 SAST 2020 Parsing 170909_CH_C1_T009_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:44:41 SAST 2020 Loading spectra for 170909_CH_C1_T009_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:44:41 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:44:42 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:44:42 SAST 2020 Importing PSMs from 170909_CH_C1_T009_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:44:44 SAST 2020 5827 identified spectra (13.9%) did not present a valid peptide.
+Mon Apr 06 09:44:44 SAST 2020 110565 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:44:44 SAST 2020     - 43.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:44:44 SAST 2020     - 56.1% unrecognized modifications.
+Mon Apr 06 09:44:44 SAST 2020 Parsing 170909_CH_C1_T009_FT.t.xml.
+Mon Apr 06 09:45:24 SAST 2020 Loading spectra for 170909_CH_C1_T009_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:24 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:24 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:24 SAST 2020 Importing PSMs from 170909_CH_C1_T009_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:45:25 SAST 2020 633 identified spectra (1.5%) did not present a valid peptide.
+Mon Apr 06 09:45:25 SAST 2020 1243 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:45:25 SAST 2020     - 6.9% peptide mapping to both target and decoy.
+Mon Apr 06 09:45:25 SAST 2020     - 55.7% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:45:25 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:45:25 SAST 2020     - 37.4% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:45:25 SAST 2020 Parsing 170909_CH_C1_T009_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:27 SAST 2020 Loading spectra for 170909_CH_C1_T009_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:27 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:28 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:45:29 SAST 2020 Importing PSMs from 170909_CH_C1_T009_FT.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 30% 30% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 90%
+Mon Apr 06 09:45:30 SAST 2020 312901 identified spectra (90.7%) did not present a valid peptide.
+Mon Apr 06 09:45:30 SAST 2020 402831 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:45:30 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:45:30 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:45:30 SAST 2020 Parsing 170909_CH_C1_T010_FT_R2.comet.pep.xml.
+Mon Apr 06 09:45:59 SAST 2020 Loading spectra for 170909_CH_C1_T010_FT_R2.comet.pep.xml.
+Mon Apr 06 09:45:59 SAST 2020 Importing 170909_CH_C1_T010_FT_R2.mgf
+Mon Apr 06 09:46:00 SAST 2020 170909_CH_C1_T010_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:46:00 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:46:00 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:46:00 SAST 2020 Importing PSMs from 170909_CH_C1_T010_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:46:01 SAST 2020 74 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 09:46:01 SAST 2020 17556 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:46:01 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 09:46:01 SAST 2020     - 65.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:46:01 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:46:01 SAST 2020     - 33.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:46:01 SAST 2020 Parsing 170909_CH_C1_T010_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:47:37 SAST 2020 Loading spectra for 170909_CH_C1_T010_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:47:37 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:47:37 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:47:38 SAST 2020 Importing PSMs from 170909_CH_C1_T010_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:47:38 SAST 2020 5622 identified spectra (14.6%) did not present a valid peptide.
+Mon Apr 06 09:47:38 SAST 2020 89583 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:47:38 SAST 2020     - 44.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:47:38 SAST 2020     - 55.3% unrecognized modifications.
+Mon Apr 06 09:47:38 SAST 2020 Parsing 170909_CH_C1_T010_FT_R2.t.xml.
+Mon Apr 06 09:48:16 SAST 2020 Loading spectra for 170909_CH_C1_T010_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:16 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:16 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:16 SAST 2020 Importing PSMs from 170909_CH_C1_T010_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:48:16 SAST 2020 672 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 09:48:16 SAST 2020 1153 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:48:16 SAST 2020     - 8.9% peptide mapping to both target and decoy.
+Mon Apr 06 09:48:16 SAST 2020     - 48.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:48:16 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:48:16 SAST 2020     - 42.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:48:16 SAST 2020 Parsing 170909_CH_C1_T010_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:19 SAST 2020 Loading spectra for 170909_CH_C1_T010_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:19 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:20 SAST 2020 Importing PSMs from 170909_CH_C1_T010_FT_R2.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:48:21 SAST 2020 300964 identified spectra (92.0%) did not present a valid peptide.
+Mon Apr 06 09:48:21 SAST 2020 390916 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:48:21 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:48:21 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:48:21 SAST 2020 Parsing 170909_CH_C1_T011_FT_R2.comet.pep.xml.
+Mon Apr 06 09:48:48 SAST 2020 Loading spectra for 170909_CH_C1_T011_FT_R2.comet.pep.xml.
+Mon Apr 06 09:48:48 SAST 2020 Importing 170909_CH_C1_T011_FT_R2.mgf
+Mon Apr 06 09:48:49 SAST 2020 170909_CH_C1_T011_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:48:49 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:49 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:48:50 SAST 2020 Importing PSMs from 170909_CH_C1_T011_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:48:50 SAST 2020 69 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 09:48:50 SAST 2020 17807 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:48:50 SAST 2020     - 63.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:48:50 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:48:50 SAST 2020     - 35.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:48:50 SAST 2020 Parsing 170909_CH_C1_T011_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:09 SAST 2020 Loading spectra for 170909_CH_C1_T011_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:09 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:10 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:11 SAST 2020 Importing PSMs from 170909_CH_C1_T011_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:50:12 SAST 2020 5217 identified spectra (16.0%) did not present a valid peptide.
+Mon Apr 06 09:50:12 SAST 2020 77699 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:50:12 SAST 2020     - 45.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:50:12 SAST 2020     - 54.7% unrecognized modifications.
+Mon Apr 06 09:50:12 SAST 2020 Parsing 170909_CH_C1_T011_FT_R2.t.xml.
+Mon Apr 06 09:50:43 SAST 2020 Loading spectra for 170909_CH_C1_T011_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:43 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:43 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:43 SAST 2020 Importing PSMs from 170909_CH_C1_T011_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:50:43 SAST 2020 626 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 09:50:43 SAST 2020 999 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:50:43 SAST 2020     - 7.0% peptide mapping to both target and decoy.
+Mon Apr 06 09:50:43 SAST 2020     - 52.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:50:43 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:50:43 SAST 2020     - 40.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:50:43 SAST 2020 Parsing 170909_CH_C1_T011_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:45 SAST 2020 Loading spectra for 170909_CH_C1_T011_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:45 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:46 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:50:47 SAST 2020 Importing PSMs from 170909_CH_C1_T011_FT_R2.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 20% 30% 40% 50% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 80% 90%
+Mon Apr 06 09:50:47 SAST 2020 241602 identified spectra (90.8%) did not present a valid peptide.
+Mon Apr 06 09:50:47 SAST 2020 310839 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:50:47 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:50:47 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:50:47 SAST 2020 Parsing 170909_CH_C1_T013_FT.comet.pep.xml.
+Mon Apr 06 09:51:40 SAST 2020 Loading spectra for 170909_CH_C1_T013_FT.comet.pep.xml.
+Mon Apr 06 09:51:40 SAST 2020 Importing 170909_CH_C1_T013_FT.mgf
+Mon Apr 06 09:51:41 SAST 2020 170909_CH_C1_T013_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:51:41 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:51:41 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:51:42 SAST 2020 Importing PSMs from 170909_CH_C1_T013_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:51:42 SAST 2020 65 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 09:51:42 SAST 2020 18340 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:51:42 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 09:51:42 SAST 2020     - 64.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:51:42 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:51:42 SAST 2020     - 34.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:51:42 SAST 2020 Parsing 170909_CH_C1_T013_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:53:34 SAST 2020 Loading spectra for 170909_CH_C1_T013_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:53:34 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:53:34 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:53:35 SAST 2020 Importing PSMs from 170909_CH_C1_T013_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:53:36 SAST 2020 5188 identified spectra (12.3%) did not present a valid peptide.
+Mon Apr 06 09:53:36 SAST 2020 103778 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:53:36 SAST 2020     - 43.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:53:36 SAST 2020     - 56.1% unrecognized modifications.
+Mon Apr 06 09:53:36 SAST 2020 Parsing 170909_CH_C1_T013_FT.t.xml.
+Mon Apr 06 09:54:07 SAST 2020 Loading spectra for 170909_CH_C1_T013_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:07 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:07 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:07 SAST 2020 Importing PSMs from 170909_CH_C1_T013_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:54:08 SAST 2020 796 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 09:54:08 SAST 2020 1463 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:54:08 SAST 2020     - 7.9% peptide mapping to both target and decoy.
+Mon Apr 06 09:54:08 SAST 2020     - 53.0% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:54:08 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:54:08 SAST 2020     - 39.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:54:08 SAST 2020 Parsing 170909_CH_C1_T013_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:10 SAST 2020 Loading spectra for 170909_CH_C1_T013_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:10 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:11 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:54:12 SAST 2020 Importing PSMs from 170909_CH_C1_T013_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 80% 80% 90%
+Mon Apr 06 09:54:13 SAST 2020 306293 identified spectra (91.5%) did not present a valid peptide.
+Mon Apr 06 09:54:13 SAST 2020 389583 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:54:13 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:54:13 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:54:13 SAST 2020 Parsing 170909_CH_C1_T014_FT_R2.comet.pep.xml.
+Mon Apr 06 09:55:05 SAST 2020 Loading spectra for 170909_CH_C1_T014_FT_R2.comet.pep.xml.
+Mon Apr 06 09:55:05 SAST 2020 Importing 170909_CH_C1_T014_FT_R2.mgf
+Mon Apr 06 09:55:06 SAST 2020 170909_CH_C1_T014_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:55:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:55:06 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:55:07 SAST 2020 Importing PSMs from 170909_CH_C1_T014_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:55:07 SAST 2020 50 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 09:55:07 SAST 2020 16654 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:55:07 SAST 2020     - 63.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:55:07 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:55:07 SAST 2020     - 35.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:55:07 SAST 2020 Parsing 170909_CH_C1_T014_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:56:40 SAST 2020 Loading spectra for 170909_CH_C1_T014_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:56:40 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:56:40 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:56:41 SAST 2020 Importing PSMs from 170909_CH_C1_T014_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:56:41 SAST 2020 4985 identified spectra (14.0%) did not present a valid peptide.
+Mon Apr 06 09:56:41 SAST 2020 81499 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:56:41 SAST 2020     - 44.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:56:41 SAST 2020     - 55.1% unrecognized modifications.
+Mon Apr 06 09:56:41 SAST 2020 Parsing 170909_CH_C1_T014_FT_R2.t.xml.
+Mon Apr 06 09:57:15 SAST 2020 Loading spectra for 170909_CH_C1_T014_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:16 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:16 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:16 SAST 2020 Importing PSMs from 170909_CH_C1_T014_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:57:16 SAST 2020 783 identified spectra (2.1%) did not present a valid peptide.
+Mon Apr 06 09:57:16 SAST 2020 1184 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:57:16 SAST 2020     - 6.1% peptide mapping to both target and decoy.
+Mon Apr 06 09:57:16 SAST 2020     - 49.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:57:16 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:57:16 SAST 2020     - 44.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:57:16 SAST 2020 Parsing 170909_CH_C1_T014_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:18 SAST 2020 Loading spectra for 170909_CH_C1_T014_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:18 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:57:20 SAST 2020 Importing PSMs from 170909_CH_C1_T014_FT_R2.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 09:57:20 SAST 2020 254983 identified spectra (90.7%) did not present a valid peptide.
+Mon Apr 06 09:57:20 SAST 2020 326072 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:57:20 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:57:20 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 09:57:20 SAST 2020 Parsing 170909_CH_C1_T015_FT.comet.pep.xml.
+Mon Apr 06 09:58:23 SAST 2020 Loading spectra for 170909_CH_C1_T015_FT.comet.pep.xml.
+Mon Apr 06 09:58:23 SAST 2020 Importing 170909_CH_C1_T015_FT.mgf
+Mon Apr 06 09:58:24 SAST 2020 170909_CH_C1_T015_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:58:24 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:58:24 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 09:58:26 SAST 2020 Importing PSMs from 170909_CH_C1_T015_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 09:58:26 SAST 2020 57 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 09:58:26 SAST 2020 20076 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 09:58:26 SAST 2020     - 1.0% peptide mapping to both target and decoy.
+Mon Apr 06 09:58:26 SAST 2020     - 70.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 09:58:26 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 09:58:26 SAST 2020     - 28.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 09:58:26 SAST 2020 Parsing 170909_CH_C1_T015_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:00:18 SAST 2020 Loading spectra for 170909_CH_C1_T015_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:00:18 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:00:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:00:19 SAST 2020 Importing PSMs from 170909_CH_C1_T015_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:00:20 SAST 2020 5053 identified spectra (11.9%) did not present a valid peptide.
+Mon Apr 06 10:00:20 SAST 2020 89959 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:00:20 SAST 2020     - 43.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:00:20 SAST 2020     - 56.5% unrecognized modifications.
+Mon Apr 06 10:00:20 SAST 2020 Parsing 170909_CH_C1_T015_FT.t.xml.
+Mon Apr 06 10:01:02 SAST 2020 Loading spectra for 170909_CH_C1_T015_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:02 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:02 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:02 SAST 2020 Importing PSMs from 170909_CH_C1_T015_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:01:02 SAST 2020 746 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 10:01:02 SAST 2020 1340 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:01:02 SAST 2020     - 7.5% peptide mapping to both target and decoy.
+Mon Apr 06 10:01:02 SAST 2020     - 54.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:01:02 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:01:02 SAST 2020     - 38.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:01:02 SAST 2020 Parsing 170909_CH_C1_T015_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:04 SAST 2020 Loading spectra for 170909_CH_C1_T015_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:05 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:05 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:01:07 SAST 2020 Importing PSMs from 170909_CH_C1_T015_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 70% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:01:07 SAST 2020 311902 identified spectra (91.7%) did not present a valid peptide.
+Mon Apr 06 10:01:07 SAST 2020 397922 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:01:07 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:01:07 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:01:07 SAST 2020 Parsing 170909_CH_C1_T025_FT.comet.pep.xml.
+Mon Apr 06 10:02:05 SAST 2020 Loading spectra for 170909_CH_C1_T025_FT.comet.pep.xml.
+Mon Apr 06 10:02:05 SAST 2020 Importing 170909_CH_C1_T025_FT.mgf
+Mon Apr 06 10:02:06 SAST 2020 170909_CH_C1_T025_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:02:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:02:06 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:02:07 SAST 2020 Importing PSMs from 170909_CH_C1_T025_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:02:07 SAST 2020 57 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:02:07 SAST 2020 16302 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:02:07 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 10:02:07 SAST 2020     - 63.3% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:02:07 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:02:07 SAST 2020     - 35.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:02:07 SAST 2020 Parsing 170909_CH_C1_T025_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:03:33 SAST 2020 Loading spectra for 170909_CH_C1_T025_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:03:33 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:03:34 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:03:34 SAST 2020 Importing PSMs from 170909_CH_C1_T025_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:03:35 SAST 2020 4765 identified spectra (11.7%) did not present a valid peptide.
+Mon Apr 06 10:03:35 SAST 2020 92519 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:03:35 SAST 2020     - 43.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:03:35 SAST 2020     - 56.2% unrecognized modifications.
+Mon Apr 06 10:03:35 SAST 2020 Parsing 170909_CH_C1_T025_FT.t.xml.
+Mon Apr 06 10:04:16 SAST 2020 Loading spectra for 170909_CH_C1_T025_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:16 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:16 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:16 SAST 2020 Importing PSMs from 170909_CH_C1_T025_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:04:16 SAST 2020 803 identified spectra (1.9%) did not present a valid peptide.
+Mon Apr 06 10:04:16 SAST 2020 1259 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:04:16 SAST 2020     - 8.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:04:16 SAST 2020     - 49.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:04:16 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:04:16 SAST 2020     - 42.4% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:04:16 SAST 2020 Parsing 170909_CH_C1_T025_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:18 SAST 2020 Loading spectra for 170909_CH_C1_T025_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:19 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:20 SAST 2020 Importing PSMs from 170909_CH_C1_T025_FT.tide-search.target.txt
+10% 20% 30% 30% 40% 50% 60% 60% 70% 80% 80% 80% 90% 90%
+Mon Apr 06 10:04:21 SAST 2020 293493 identified spectra (92.4%) did not present a valid peptide.
+Mon Apr 06 10:04:21 SAST 2020 379290 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:04:21 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:04:21 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:04:21 SAST 2020 Parsing 170909_CH_C1_T026_FT.comet.pep.xml.
+Mon Apr 06 10:04:52 SAST 2020 Loading spectra for 170909_CH_C1_T026_FT.comet.pep.xml.
+Mon Apr 06 10:04:52 SAST 2020 Importing 170909_CH_C1_T026_FT.mgf
+Mon Apr 06 10:04:53 SAST 2020 170909_CH_C1_T026_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:04:53 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:53 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:04:53 SAST 2020 Importing PSMs from 170909_CH_C1_T026_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:04:54 SAST 2020 63 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:04:54 SAST 2020 18067 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:04:54 SAST 2020     - 66.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:04:54 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:04:54 SAST 2020     - 32.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:04:54 SAST 2020 Parsing 170909_CH_C1_T026_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:06:32 SAST 2020 Loading spectra for 170909_CH_C1_T026_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:06:32 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:06:32 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:06:33 SAST 2020 Importing PSMs from 170909_CH_C1_T026_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:06:33 SAST 2020 5077 identified spectra (12.7%) did not present a valid peptide.
+Mon Apr 06 10:06:33 SAST 2020 90420 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:06:33 SAST 2020     - 43.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:06:33 SAST 2020     - 56.0% unrecognized modifications.
+Mon Apr 06 10:06:33 SAST 2020 Parsing 170909_CH_C1_T026_FT.t.xml.
+Mon Apr 06 10:07:13 SAST 2020 Loading spectra for 170909_CH_C1_T026_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:13 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:14 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:14 SAST 2020 Importing PSMs from 170909_CH_C1_T026_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:07:14 SAST 2020 732 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 10:07:14 SAST 2020 1189 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:07:14 SAST 2020     - 7.4% peptide mapping to both target and decoy.
+Mon Apr 06 10:07:14 SAST 2020     - 50.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:07:14 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:07:14 SAST 2020     - 42.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:07:14 SAST 2020 Parsing 170909_CH_C1_T026_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:16 SAST 2020 Loading spectra for 170909_CH_C1_T026_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:16 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:17 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:07:18 SAST 2020 Importing PSMs from 170909_CH_C1_T026_FT.tide-search.target.txt
+10% 20% 20% 30% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:07:19 SAST 2020 293677 identified spectra (91.4%) did not present a valid peptide.
+Mon Apr 06 10:07:19 SAST 2020 373697 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:07:19 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:07:19 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:07:19 SAST 2020 Parsing 170909_CH_C1_T027_FT_R2.comet.pep.xml.
+Mon Apr 06 10:08:05 SAST 2020 Loading spectra for 170909_CH_C1_T027_FT_R2.comet.pep.xml.
+Mon Apr 06 10:08:05 SAST 2020 Importing 170909_CH_C1_T027_FT_R2.mgf
+Mon Apr 06 10:08:06 SAST 2020 170909_CH_C1_T027_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:08:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:08:06 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:08:07 SAST 2020 Importing PSMs from 170909_CH_C1_T027_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:08:07 SAST 2020 84 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 10:08:07 SAST 2020 19577 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:08:07 SAST 2020     - 70.3% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:08:07 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:08:07 SAST 2020     - 28.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:08:07 SAST 2020 Parsing 170909_CH_C1_T027_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:09:44 SAST 2020 Loading spectra for 170909_CH_C1_T027_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:09:44 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:09:44 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:09:45 SAST 2020 Importing PSMs from 170909_CH_C1_T027_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:09:46 SAST 2020 4982 identified spectra (13.2%) did not present a valid peptide.
+Mon Apr 06 10:09:46 SAST 2020 75841 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:09:46 SAST 2020     - 44.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:09:46 SAST 2020     - 55.0% unrecognized modifications.
+Mon Apr 06 10:09:46 SAST 2020 Parsing 170909_CH_C1_T027_FT_R2.t.xml.
+Mon Apr 06 10:10:21 SAST 2020 Loading spectra for 170909_CH_C1_T027_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:21 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:21 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:22 SAST 2020 Importing PSMs from 170909_CH_C1_T027_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:10:22 SAST 2020 658 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:10:22 SAST 2020 1189 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:10:22 SAST 2020     - 8.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:10:22 SAST 2020     - 54.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:10:22 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:10:22 SAST 2020     - 37.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:10:22 SAST 2020 Parsing 170909_CH_C1_T027_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:24 SAST 2020 Loading spectra for 170909_CH_C1_T027_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:24 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:25 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:10:26 SAST 2020 Importing PSMs from 170909_CH_C1_T027_FT_R2.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:10:26 SAST 2020 272817 identified spectra (90.6%) did not present a valid peptide.
+Mon Apr 06 10:10:26 SAST 2020 350669 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:10:26 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:10:26 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:10:26 SAST 2020 Parsing 170909_CH_C1_T037_FT.comet.pep.xml.
+Mon Apr 06 10:11:23 SAST 2020 Loading spectra for 170909_CH_C1_T037_FT.comet.pep.xml.
+Mon Apr 06 10:11:23 SAST 2020 Importing 170909_CH_C1_T037_FT.mgf
+Mon Apr 06 10:11:24 SAST 2020 170909_CH_C1_T037_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:11:25 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:11:25 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:11:25 SAST 2020 Importing PSMs from 170909_CH_C1_T037_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:11:26 SAST 2020 72 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 10:11:26 SAST 2020 18416 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:11:26 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 10:11:26 SAST 2020     - 67.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:11:26 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:11:26 SAST 2020     - 31.4% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:11:26 SAST 2020 Parsing 170909_CH_C1_T037_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:12:56 SAST 2020 Loading spectra for 170909_CH_C1_T037_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:12:56 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:12:57 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:12:58 SAST 2020 Importing PSMs from 170909_CH_C1_T037_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:12:58 SAST 2020 5119 identified spectra (13.1%) did not present a valid peptide.
+Mon Apr 06 10:12:58 SAST 2020 88580 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:12:58 SAST 2020     - 44.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:12:58 SAST 2020     - 55.2% unrecognized modifications.
+Mon Apr 06 10:12:58 SAST 2020 Parsing 170909_CH_C1_T037_FT.t.xml.
+Mon Apr 06 10:13:29 SAST 2020 Loading spectra for 170909_CH_C1_T037_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:29 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:29 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:31 SAST 2020 Importing PSMs from 170909_CH_C1_T037_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:13:31 SAST 2020 668 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 10:13:31 SAST 2020 1278 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:13:31 SAST 2020     - 7.5% peptide mapping to both target and decoy.
+Mon Apr 06 10:13:31 SAST 2020     - 56.3% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:13:31 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:13:31 SAST 2020     - 36.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:13:31 SAST 2020 Parsing 170909_CH_C1_T037_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:33 SAST 2020 Loading spectra for 170909_CH_C1_T037_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:33 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:34 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:13:34 SAST 2020 Importing PSMs from 170909_CH_C1_T037_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:13:35 SAST 2020 286428 identified spectra (91.7%) did not present a valid peptide.
+Mon Apr 06 10:13:35 SAST 2020 369199 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:13:35 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:13:35 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:13:35 SAST 2020 Parsing 170909_CH_C1_T042_FT.comet.pep.xml.
+Mon Apr 06 10:14:41 SAST 2020 Loading spectra for 170909_CH_C1_T042_FT.comet.pep.xml.
+Mon Apr 06 10:14:41 SAST 2020 Importing 170909_CH_C1_T042_FT.mgf
+Mon Apr 06 10:14:42 SAST 2020 170909_CH_C1_T042_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:14:42 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:14:42 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:14:43 SAST 2020 Importing PSMs from 170909_CH_C1_T042_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:14:44 SAST 2020 64 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:14:44 SAST 2020 18101 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:14:44 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 10:14:44 SAST 2020     - 59.1% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:14:44 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:14:44 SAST 2020     - 39.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:14:44 SAST 2020 Parsing 170909_CH_C1_T042_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:19 SAST 2020 Loading spectra for 170909_CH_C1_T042_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:19 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:20 SAST 2020 Importing PSMs from 170909_CH_C1_T042_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:16:21 SAST 2020 5799 identified spectra (14.6%) did not present a valid peptide.
+Mon Apr 06 10:16:21 SAST 2020 104688 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:16:21 SAST 2020     - 44.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:16:21 SAST 2020     - 55.8% unrecognized modifications.
+Mon Apr 06 10:16:21 SAST 2020 Parsing 170909_CH_C1_T042_FT.t.xml.
+Mon Apr 06 10:16:49 SAST 2020 Loading spectra for 170909_CH_C1_T042_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:49 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:49 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:49 SAST 2020 Importing PSMs from 170909_CH_C1_T042_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:16:50 SAST 2020 649 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:16:50 SAST 2020 1028 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:16:50 SAST 2020     - 8.5% peptide mapping to both target and decoy.
+Mon Apr 06 10:16:50 SAST 2020     - 44.1% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:16:50 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:16:50 SAST 2020     - 47.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:16:50 SAST 2020 Parsing 170909_CH_C1_T042_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:52 SAST 2020 Loading spectra for 170909_CH_C1_T042_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:52 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:52 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:16:54 SAST 2020 Importing PSMs from 170909_CH_C1_T042_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 30% 30% 30% 30% 40% 50% 50% 50% 50% 60% 70% 80% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:16:54 SAST 2020 297505 identified spectra (91.1%) did not present a valid peptide.
+Mon Apr 06 10:16:54 SAST 2020 376569 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:16:54 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:16:54 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:16:54 SAST 2020 Parsing 170909_CH_C1_T049_FT.comet.pep.xml.
+Mon Apr 06 10:17:25 SAST 2020 Loading spectra for 170909_CH_C1_T049_FT.comet.pep.xml.
+Mon Apr 06 10:17:25 SAST 2020 Importing 170909_CH_C1_T049_FT.mgf
+Mon Apr 06 10:17:26 SAST 2020 170909_CH_C1_T049_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:17:27 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:17:27 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:17:27 SAST 2020 Importing PSMs from 170909_CH_C1_T049_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:17:28 SAST 2020 82 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 10:17:28 SAST 2020 16167 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:17:28 SAST 2020     - 1.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:17:28 SAST 2020     - 65.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:17:28 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:17:28 SAST 2020     - 33.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:17:28 SAST 2020 Parsing 170909_CH_C1_T049_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:21 SAST 2020 Loading spectra for 170909_CH_C1_T049_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:21 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:22 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:22 SAST 2020 Importing PSMs from 170909_CH_C1_T049_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:18:23 SAST 2020 4703 identified spectra (11.4%) did not present a valid peptide.
+Mon Apr 06 10:18:23 SAST 2020 82471 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:18:23 SAST 2020     - 44.4% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:18:23 SAST 2020     - 55.3% unrecognized modifications.
+Mon Apr 06 10:18:23 SAST 2020 Parsing 170909_CH_C1_T049_FT.t.xml.
+Mon Apr 06 10:18:57 SAST 2020 Loading spectra for 170909_CH_C1_T049_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:57 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:57 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:18:57 SAST 2020 Importing PSMs from 170909_CH_C1_T049_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:18:58 SAST 2020 773 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 10:18:58 SAST 2020 1255 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:18:58 SAST 2020     - 8.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:18:58 SAST 2020     - 50.7% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:18:58 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:18:58 SAST 2020     - 41.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:18:58 SAST 2020 Parsing 170909_CH_C1_T049_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:19:00 SAST 2020 Loading spectra for 170909_CH_C1_T049_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:19:00 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:19:01 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:19:02 SAST 2020 Importing PSMs from 170909_CH_C1_T049_FT.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 90% 90% 90% 90% 90%
+Mon Apr 06 10:19:04 SAST 2020 307202 identified spectra (92.3%) did not present a valid peptide.
+Mon Apr 06 10:19:04 SAST 2020 394790 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:19:04 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:19:04 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:19:05 SAST 2020 Parsing 170909_CH_C1_T051_FT_R2.comet.pep.xml.
+Mon Apr 06 10:20:02 SAST 2020 Loading spectra for 170909_CH_C1_T051_FT_R2.comet.pep.xml.
+Mon Apr 06 10:20:02 SAST 2020 Importing 170909_CH_C1_T051_FT_R2.mgf
+Mon Apr 06 10:20:05 SAST 2020 170909_CH_C1_T051_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:20:05 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:20:05 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:20:06 SAST 2020 Importing PSMs from 170909_CH_C1_T051_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:20:06 SAST 2020 66 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 10:20:06 SAST 2020 16945 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:20:06 SAST 2020     - 60.5% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:20:06 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:20:06 SAST 2020     - 38.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:20:06 SAST 2020 Parsing 170909_CH_C1_T051_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:02 SAST 2020 Loading spectra for 170909_CH_C1_T051_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:02 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:02 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:03 SAST 2020 Importing PSMs from 170909_CH_C1_T051_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:21:03 SAST 2020 5375 identified spectra (16.8%) did not present a valid peptide.
+Mon Apr 06 10:21:03 SAST 2020 82652 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:21:03 SAST 2020     - 44.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:21:03 SAST 2020     - 55.6% unrecognized modifications.
+Mon Apr 06 10:21:03 SAST 2020 Parsing 170909_CH_C1_T051_FT_R2.t.xml.
+Mon Apr 06 10:21:32 SAST 2020 Loading spectra for 170909_CH_C1_T051_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:32 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:32 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:32 SAST 2020 Importing PSMs from 170909_CH_C1_T051_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:21:33 SAST 2020 563 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:21:33 SAST 2020 823 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:21:33 SAST 2020     - 5.5% peptide mapping to both target and decoy.
+Mon Apr 06 10:21:33 SAST 2020     - 44.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:21:33 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:21:33 SAST 2020     - 50.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:21:33 SAST 2020 Parsing 170909_CH_C1_T051_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:34 SAST 2020 Loading spectra for 170909_CH_C1_T051_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:35 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:35 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:21:36 SAST 2020 Importing PSMs from 170909_CH_C1_T051_FT_R2.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 50% 60% 70% 70% 80% 90%
+Mon Apr 06 10:21:37 SAST 2020 247046 identified spectra (91.8%) did not present a valid peptide.
+Mon Apr 06 10:21:37 SAST 2020 317000 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:21:37 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:21:37 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:21:37 SAST 2020 Parsing 170909_CH_C1_T052_FT.comet.pep.xml.
+Mon Apr 06 10:22:42 SAST 2020 Loading spectra for 170909_CH_C1_T052_FT.comet.pep.xml.
+Mon Apr 06 10:22:42 SAST 2020 Importing 170909_CH_C1_T052_FT.mgf
+Mon Apr 06 10:22:43 SAST 2020 170909_CH_C1_T052_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:22:43 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:22:43 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:22:44 SAST 2020 Importing PSMs from 170909_CH_C1_T052_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:22:45 SAST 2020 65 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:22:45 SAST 2020 18428 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:22:45 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 10:22:45 SAST 2020     - 65.0% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:22:45 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:22:45 SAST 2020     - 33.9% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:22:45 SAST 2020 Parsing 170909_CH_C1_T052_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:24:27 SAST 2020 Loading spectra for 170909_CH_C1_T052_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:24:27 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:24:27 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:24:28 SAST 2020 Importing PSMs from 170909_CH_C1_T052_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:24:29 SAST 2020 5009 identified spectra (11.8%) did not present a valid peptide.
+Mon Apr 06 10:24:29 SAST 2020 90258 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:24:29 SAST 2020     - 44.4% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:24:29 SAST 2020     - 55.4% unrecognized modifications.
+Mon Apr 06 10:24:29 SAST 2020 Parsing 170909_CH_C1_T052_FT.t.xml.
+Mon Apr 06 10:25:01 SAST 2020 Loading spectra for 170909_CH_C1_T052_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:01 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:01 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:01 SAST 2020 Importing PSMs from 170909_CH_C1_T052_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:25:01 SAST 2020 740 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 10:25:01 SAST 2020 1353 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:25:01 SAST 2020     - 8.9% peptide mapping to both target and decoy.
+Mon Apr 06 10:25:01 SAST 2020     - 55.8% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:25:01 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:25:01 SAST 2020     - 35.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:25:01 SAST 2020 Parsing 170909_CH_C1_T052_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:03 SAST 2020 Loading spectra for 170909_CH_C1_T052_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:03 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:04 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:25:05 SAST 2020 Importing PSMs from 170909_CH_C1_T052_FT.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:25:06 SAST 2020 309027 identified spectra (90.6%) did not present a valid peptide.
+Mon Apr 06 10:25:06 SAST 2020 398750 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:25:06 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:25:06 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:25:06 SAST 2020 Parsing 170909_CH_C1_T053_FT.comet.pep.xml.
+Mon Apr 06 10:26:08 SAST 2020 Loading spectra for 170909_CH_C1_T053_FT.comet.pep.xml.
+Mon Apr 06 10:26:08 SAST 2020 Importing 170909_CH_C1_T053_FT.mgf
+Mon Apr 06 10:26:09 SAST 2020 170909_CH_C1_T053_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:26:10 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:26:10 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:26:10 SAST 2020 Importing PSMs from 170909_CH_C1_T053_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:26:11 SAST 2020 62 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:26:11 SAST 2020 15982 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:26:11 SAST 2020     - 1.3% peptide mapping to both target and decoy.
+Mon Apr 06 10:26:11 SAST 2020     - 67.8% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:26:11 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:26:11 SAST 2020     - 31.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:26:11 SAST 2020 Parsing 170909_CH_C1_T053_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:27:49 SAST 2020 Loading spectra for 170909_CH_C1_T053_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:27:50 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:27:50 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:27:51 SAST 2020 Importing PSMs from 170909_CH_C1_T053_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:27:53 SAST 2020 5732 identified spectra (15.2%) did not present a valid peptide.
+Mon Apr 06 10:27:53 SAST 2020 81296 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:27:53 SAST 2020     - 45.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:27:53 SAST 2020     - 54.7% unrecognized modifications.
+Mon Apr 06 10:27:53 SAST 2020 Parsing 170909_CH_C1_T053_FT.t.xml.
+Mon Apr 06 10:28:23 SAST 2020 Loading spectra for 170909_CH_C1_T053_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:23 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:23 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:23 SAST 2020 Importing PSMs from 170909_CH_C1_T053_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:28:24 SAST 2020 703 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 10:28:24 SAST 2020 1156 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:28:24 SAST 2020     - 8.7% peptide mapping to both target and decoy.
+Mon Apr 06 10:28:24 SAST 2020     - 47.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:28:24 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:28:24 SAST 2020     - 43.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:28:24 SAST 2020 Parsing 170909_CH_C1_T053_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:26 SAST 2020 Loading spectra for 170909_CH_C1_T053_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:26 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:27 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:28:28 SAST 2020 Importing PSMs from 170909_CH_C1_T053_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 60% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 90% 90%
+Mon Apr 06 10:28:28 SAST 2020 295026 identified spectra (91.6%) did not present a valid peptide.
+Mon Apr 06 10:28:28 SAST 2020 382128 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:28:28 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:28:28 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:28:28 SAST 2020 Parsing 170909_CH_C1_T054_FT.comet.pep.xml.
+Mon Apr 06 10:29:26 SAST 2020 Loading spectra for 170909_CH_C1_T054_FT.comet.pep.xml.
+Mon Apr 06 10:29:26 SAST 2020 Importing 170909_CH_C1_T054_FT.mgf
+Mon Apr 06 10:29:27 SAST 2020 170909_CH_C1_T054_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:29:28 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:29:28 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:29:28 SAST 2020 Importing PSMs from 170909_CH_C1_T054_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:29:29 SAST 2020 49 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:29:29 SAST 2020 17312 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:29:29 SAST 2020     - 1.0% peptide mapping to both target and decoy.
+Mon Apr 06 10:29:29 SAST 2020     - 63.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:29:29 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:29:29 SAST 2020     - 35.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:29:29 SAST 2020 Parsing 170909_CH_C1_T054_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:10 SAST 2020 Loading spectra for 170909_CH_C1_T054_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:10 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:11 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:11 SAST 2020 Importing PSMs from 170909_CH_C1_T054_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:31:12 SAST 2020 5011 identified spectra (13.0%) did not present a valid peptide.
+Mon Apr 06 10:31:12 SAST 2020 87134 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:31:12 SAST 2020     - 44.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:31:12 SAST 2020     - 55.5% unrecognized modifications.
+Mon Apr 06 10:31:12 SAST 2020 Parsing 170909_CH_C1_T054_FT.t.xml.
+Mon Apr 06 10:31:46 SAST 2020 Loading spectra for 170909_CH_C1_T054_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:46 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:47 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:47 SAST 2020 Importing PSMs from 170909_CH_C1_T054_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:31:47 SAST 2020 759 identified spectra (1.9%) did not present a valid peptide.
+Mon Apr 06 10:31:47 SAST 2020 1307 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:31:47 SAST 2020     - 6.5% peptide mapping to both target and decoy.
+Mon Apr 06 10:31:47 SAST 2020     - 54.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:31:47 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:31:47 SAST 2020     - 38.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:31:47 SAST 2020 Parsing 170909_CH_C1_T054_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:49 SAST 2020 Loading spectra for 170909_CH_C1_T054_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:49 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:50 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:31:51 SAST 2020 Importing PSMs from 170909_CH_C1_T054_FT.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 40% 40% 40% 40% 40% 40% 50% 60% 70% 80% 80% 90%
+Mon Apr 06 10:31:52 SAST 2020 291970 identified spectra (92.0%) did not present a valid peptide.
+Mon Apr 06 10:31:52 SAST 2020 367429 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:31:52 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:31:52 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:31:52 SAST 2020 Parsing 170909_CH_C1_T061_FT_R2.comet.pep.xml.
+Mon Apr 06 10:32:55 SAST 2020 Loading spectra for 170909_CH_C1_T061_FT_R2.comet.pep.xml.
+Mon Apr 06 10:32:55 SAST 2020 Importing 170909_CH_C1_T061_FT_R2.mgf
+Mon Apr 06 10:32:56 SAST 2020 170909_CH_C1_T061_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:32:56 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:32:57 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:32:57 SAST 2020 Importing PSMs from 170909_CH_C1_T061_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:32:58 SAST 2020 66 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:32:58 SAST 2020 17159 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:32:58 SAST 2020     - 1.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:32:58 SAST 2020     - 61.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:32:58 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:32:58 SAST 2020     - 36.9% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:32:58 SAST 2020 Parsing 170909_CH_C1_T061_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:34:31 SAST 2020 Loading spectra for 170909_CH_C1_T061_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:34:31 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:34:32 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:34:33 SAST 2020 Importing PSMs from 170909_CH_C1_T061_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:34:33 SAST 2020 5929 identified spectra (16.4%) did not present a valid peptide.
+Mon Apr 06 10:34:33 SAST 2020 88086 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:34:33 SAST 2020     - 43.9% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:34:33 SAST 2020     - 55.9% unrecognized modifications.
+Mon Apr 06 10:34:33 SAST 2020 Parsing 170909_CH_C1_T061_FT_R2.t.xml.
+Mon Apr 06 10:35:05 SAST 2020 Loading spectra for 170909_CH_C1_T061_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:05 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:05 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:17 SAST 2020 Importing PSMs from 170909_CH_C1_T061_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:35:17 SAST 2020 654 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 10:35:17 SAST 2020 1161 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:35:17 SAST 2020     - 9.6% peptide mapping to both target and decoy.
+Mon Apr 06 10:35:17 SAST 2020     - 49.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:35:17 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:35:17 SAST 2020     - 41.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:35:17 SAST 2020 Parsing 170909_CH_C1_T061_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:19 SAST 2020 Loading spectra for 170909_CH_C1_T061_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:20 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:20 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:35:21 SAST 2020 Importing PSMs from 170909_CH_C1_T061_FT_R2.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 80% 80% 80% 80% 80% 80% 80% 80% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 10:35:22 SAST 2020 279767 identified spectra (91.3%) did not present a valid peptide.
+Mon Apr 06 10:35:22 SAST 2020 360349 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:35:22 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:35:22 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:35:22 SAST 2020 Parsing 170909_CH_C1_T062_FT_R2.comet.pep.xml.
+Mon Apr 06 10:36:27 SAST 2020 Loading spectra for 170909_CH_C1_T062_FT_R2.comet.pep.xml.
+Mon Apr 06 10:36:27 SAST 2020 Importing 170909_CH_C1_T062_FT_R2.mgf
+Mon Apr 06 10:36:28 SAST 2020 170909_CH_C1_T062_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:36:28 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:36:29 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:36:29 SAST 2020 Importing PSMs from 170909_CH_C1_T062_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:36:30 SAST 2020 61 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:36:30 SAST 2020 17089 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:36:30 SAST 2020     - 1.2% peptide mapping to both target and decoy.
+Mon Apr 06 10:36:30 SAST 2020     - 65.0% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:36:30 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:36:30 SAST 2020     - 33.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:36:30 SAST 2020 Parsing 170909_CH_C1_T062_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:38:11 SAST 2020 Loading spectra for 170909_CH_C1_T062_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:38:11 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:38:11 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:38:11 SAST 2020 Importing PSMs from 170909_CH_C1_T062_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:38:12 SAST 2020 5420 identified spectra (14.1%) did not present a valid peptide.
+Mon Apr 06 10:38:12 SAST 2020 90887 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:38:12 SAST 2020     - 44.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:38:12 SAST 2020     - 55.5% unrecognized modifications.
+Mon Apr 06 10:38:12 SAST 2020 Parsing 170909_CH_C1_T062_FT_R2.t.xml.
+Mon Apr 06 10:39:03 SAST 2020 Loading spectra for 170909_CH_C1_T062_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:03 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:03 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:03 SAST 2020 Importing PSMs from 170909_CH_C1_T062_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:39:03 SAST 2020 712 identified spectra (1.8%) did not present a valid peptide.
+Mon Apr 06 10:39:03 SAST 2020 1311 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:39:03 SAST 2020     - 9.8% peptide mapping to both target and decoy.
+Mon Apr 06 10:39:03 SAST 2020     - 52.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:39:04 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:39:04 SAST 2020     - 37.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:39:04 SAST 2020 Parsing 170909_CH_C1_T062_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:05 SAST 2020 Loading spectra for 170909_CH_C1_T062_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:06 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:39:40 SAST 2020 Importing PSMs from 170909_CH_C1_T062_FT_R2.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 50% 50% 50% 50% 50% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 60% 70% 80% 90%
+Mon Apr 06 10:39:41 SAST 2020 288509 identified spectra (90.8%) did not present a valid peptide.
+Mon Apr 06 10:39:41 SAST 2020 372294 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:39:41 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:39:41 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:39:41 SAST 2020 Parsing 170909_CH_C1_T064_FT_R2.comet.pep.xml.
+Mon Apr 06 10:40:41 SAST 2020 Loading spectra for 170909_CH_C1_T064_FT_R2.comet.pep.xml.
+Mon Apr 06 10:40:41 SAST 2020 Importing 170909_CH_C1_T064_FT_R2.mgf
+Mon Apr 06 10:40:42 SAST 2020 170909_CH_C1_T064_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:40:42 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:40:43 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:40:43 SAST 2020 Importing PSMs from 170909_CH_C1_T064_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:42:10 SAST 2020 75 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 10:42:10 SAST 2020 17321 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:42:10 SAST 2020     - 1.1% peptide mapping to both target and decoy.
+Mon Apr 06 10:42:10 SAST 2020     - 69.7% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:42:10 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:42:10 SAST 2020     - 29.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:42:10 SAST 2020 Parsing 170909_CH_C1_T064_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:18 SAST 2020 Loading spectra for 170909_CH_C1_T064_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:18 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:18 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:23 SAST 2020 Importing PSMs from 170909_CH_C1_T064_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:43:24 SAST 2020 5025 identified spectra (14.2%) did not present a valid peptide.
+Mon Apr 06 10:43:24 SAST 2020 74989 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:43:24 SAST 2020     - 44.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:43:24 SAST 2020     - 55.1% unrecognized modifications.
+Mon Apr 06 10:43:24 SAST 2020 Parsing 170909_CH_C1_T064_FT_R2.t.xml.
+Mon Apr 06 10:43:50 SAST 2020 Loading spectra for 170909_CH_C1_T064_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:50 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:50 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:50 SAST 2020 Importing PSMs from 170909_CH_C1_T064_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:43:51 SAST 2020 593 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:43:51 SAST 2020 1054 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:43:51 SAST 2020     - 8.3% peptide mapping to both target and decoy.
+Mon Apr 06 10:43:51 SAST 2020     - 53.4% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:43:51 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:43:51 SAST 2020     - 38.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:43:51 SAST 2020 Parsing 170909_CH_C1_T064_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:53 SAST 2020 Loading spectra for 170909_CH_C1_T064_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:53 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:54 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:43:55 SAST 2020 Importing PSMs from 170909_CH_C1_T064_FT_R2.tide-search.target.txt
+10% 20% 30% 30% 40% 50% 50% 50% 50% 50% 60% 70% 80% 90%
+Mon Apr 06 10:43:55 SAST 2020 271263 identified spectra (91.2%) did not present a valid peptide.
+Mon Apr 06 10:43:55 SAST 2020 351043 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:43:55 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:43:55 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:43:55 SAST 2020 Parsing 170909_CH_C1_T069_FT_R2.comet.pep.xml.
+Mon Apr 06 10:44:57 SAST 2020 Loading spectra for 170909_CH_C1_T069_FT_R2.comet.pep.xml.
+Mon Apr 06 10:44:57 SAST 2020 Importing 170909_CH_C1_T069_FT_R2.mgf
+Mon Apr 06 10:44:58 SAST 2020 170909_CH_C1_T069_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:44:58 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:44:59 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:44:59 SAST 2020 Importing PSMs from 170909_CH_C1_T069_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:45:00 SAST 2020 58 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:45:00 SAST 2020 16781 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:45:00 SAST 2020     - 60.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:45:00 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:45:00 SAST 2020     - 38.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:45:00 SAST 2020 Parsing 170909_CH_C1_T069_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:46:34 SAST 2020 Loading spectra for 170909_CH_C1_T069_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:46:34 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:46:34 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:46:35 SAST 2020 Importing PSMs from 170909_CH_C1_T069_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:46:35 SAST 2020 5462 identified spectra (15.2%) did not present a valid peptide.
+Mon Apr 06 10:46:35 SAST 2020 87374 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:46:35 SAST 2020     - 43.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:46:35 SAST 2020     - 56.0% unrecognized modifications.
+Mon Apr 06 10:46:35 SAST 2020 Parsing 170909_CH_C1_T069_FT_R2.t.xml.
+Mon Apr 06 10:47:04 SAST 2020 Loading spectra for 170909_CH_C1_T069_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:04 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:04 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:04 SAST 2020 Importing PSMs from 170909_CH_C1_T069_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:47:04 SAST 2020 721 identified spectra (1.9%) did not present a valid peptide.
+Mon Apr 06 10:47:04 SAST 2020 1072 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:47:04 SAST 2020     - 5.8% peptide mapping to both target and decoy.
+Mon Apr 06 10:47:04 SAST 2020     - 48.3% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:47:04 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:47:04 SAST 2020     - 45.9% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:47:04 SAST 2020 Parsing 170909_CH_C1_T069_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:07 SAST 2020 Loading spectra for 170909_CH_C1_T069_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:07 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:07 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:47:08 SAST 2020 Importing PSMs from 170909_CH_C1_T069_FT_R2.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 70% 70% 70% 80% 90%
+Mon Apr 06 10:47:09 SAST 2020 274853 identified spectra (92.8%) did not present a valid peptide.
+Mon Apr 06 10:47:09 SAST 2020 351217 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:47:09 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:47:09 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:47:09 SAST 2020 Parsing 170909_CH_C1_T073_FT_R2.comet.pep.xml.
+Mon Apr 06 10:48:19 SAST 2020 Loading spectra for 170909_CH_C1_T073_FT_R2.comet.pep.xml.
+Mon Apr 06 10:48:19 SAST 2020 Importing 170909_CH_C1_T073_FT_R2.mgf
+Mon Apr 06 10:48:21 SAST 2020 170909_CH_C1_T073_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:48:21 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:48:21 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:48:21 SAST 2020 Importing PSMs from 170909_CH_C1_T073_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:48:22 SAST 2020 74 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:48:22 SAST 2020 19750 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:48:22 SAST 2020     - 1.0% peptide mapping to both target and decoy.
+Mon Apr 06 10:48:22 SAST 2020     - 61.9% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:48:22 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:48:22 SAST 2020     - 37.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:48:22 SAST 2020 Parsing 170909_CH_C1_T073_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:07 SAST 2020 Loading spectra for 170909_CH_C1_T073_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:07 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:07 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:08 SAST 2020 Importing PSMs from 170909_CH_C1_T073_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:50:09 SAST 2020 5704 identified spectra (13.6%) did not present a valid peptide.
+Mon Apr 06 10:50:09 SAST 2020 105863 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:50:09 SAST 2020     - 44.6% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:50:09 SAST 2020     - 55.3% unrecognized modifications.
+Mon Apr 06 10:50:09 SAST 2020 Parsing 170909_CH_C1_T073_FT_R2.t.xml.
+Mon Apr 06 10:50:51 SAST 2020 Loading spectra for 170909_CH_C1_T073_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:51 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:51 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:51 SAST 2020 Importing PSMs from 170909_CH_C1_T073_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:50:51 SAST 2020 677 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:50:51 SAST 2020 1279 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:50:51 SAST 2020     - 7.6% peptide mapping to both target and decoy.
+Mon Apr 06 10:50:51 SAST 2020     - 52.3% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:50:51 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:50:51 SAST 2020     - 40.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:50:51 SAST 2020 Parsing 170909_CH_C1_T073_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:53 SAST 2020 Loading spectra for 170909_CH_C1_T073_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:53 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:54 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:50:55 SAST 2020 Importing PSMs from 170909_CH_C1_T073_FT_R2.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:50:58 SAST 2020 321864 identified spectra (93.0%) did not present a valid peptide.
+Mon Apr 06 10:50:58 SAST 2020 413876 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:50:58 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:50:58 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:50:58 SAST 2020 Parsing 170909_CH_C1_T075_FT.comet.pep.xml.
+Mon Apr 06 10:52:05 SAST 2020 Loading spectra for 170909_CH_C1_T075_FT.comet.pep.xml.
+Mon Apr 06 10:52:05 SAST 2020 Importing 170909_CH_C1_T075_FT.mgf
+Mon Apr 06 10:52:06 SAST 2020 170909_CH_C1_T075_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:52:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:52:07 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:52:07 SAST 2020 Importing PSMs from 170909_CH_C1_T075_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:52:08 SAST 2020 63 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:52:08 SAST 2020 18138 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:52:08 SAST 2020     - 60.2% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:52:08 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:52:08 SAST 2020     - 38.8% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:52:08 SAST 2020 Parsing 170909_CH_C1_T075_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:53:58 SAST 2020 Loading spectra for 170909_CH_C1_T075_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:53:58 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:53:59 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:53:59 SAST 2020 Importing PSMs from 170909_CH_C1_T075_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:54:00 SAST 2020 5670 identified spectra (14.2%) did not present a valid peptide.
+Mon Apr 06 10:54:00 SAST 2020 110780 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:54:00 SAST 2020     - 44.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:54:00 SAST 2020     - 55.8% unrecognized modifications.
+Mon Apr 06 10:54:00 SAST 2020 Parsing 170909_CH_C1_T075_FT.t.xml.
+Mon Apr 06 10:54:38 SAST 2020 Loading spectra for 170909_CH_C1_T075_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:39 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:39 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:39 SAST 2020 Importing PSMs from 170909_CH_C1_T075_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:54:39 SAST 2020 655 identified spectra (1.6%) did not present a valid peptide.
+Mon Apr 06 10:54:39 SAST 2020 1181 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:54:39 SAST 2020     - 7.3% peptide mapping to both target and decoy.
+Mon Apr 06 10:54:39 SAST 2020     - 51.0% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:54:39 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:54:39 SAST 2020     - 41.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:54:39 SAST 2020 Parsing 170909_CH_C1_T075_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:41 SAST 2020 Loading spectra for 170909_CH_C1_T075_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:42 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:42 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:54:44 SAST 2020 Importing PSMs from 170909_CH_C1_T075_FT.tide-search.target.txt
+10% 20% 30% 40% 50% 60% 70% 70% 70% 80% 90%
+Mon Apr 06 10:54:45 SAST 2020 304547 identified spectra (90.8%) did not present a valid peptide.
+Mon Apr 06 10:54:45 SAST 2020 395604 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:54:45 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:54:45 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:54:45 SAST 2020 Parsing 170909_CH_C1_T077_FT.comet.pep.xml.
+Mon Apr 06 10:55:36 SAST 2020 Loading spectra for 170909_CH_C1_T077_FT.comet.pep.xml.
+Mon Apr 06 10:55:36 SAST 2020 Importing 170909_CH_C1_T077_FT.mgf
+Mon Apr 06 10:55:37 SAST 2020 170909_CH_C1_T077_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:55:37 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:55:38 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:55:38 SAST 2020 Importing PSMs from 170909_CH_C1_T077_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:55:39 SAST 2020 45 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:55:39 SAST 2020 14344 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:55:39 SAST 2020     - 1.0% peptide mapping to both target and decoy.
+Mon Apr 06 10:55:39 SAST 2020     - 66.7% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:55:39 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:55:39 SAST 2020     - 32.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:55:39 SAST 2020 Parsing 170909_CH_C1_T077_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:19 SAST 2020 Loading spectra for 170909_CH_C1_T077_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:19 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:19 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:20 SAST 2020 Importing PSMs from 170909_CH_C1_T077_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:57:21 SAST 2020 4884 identified spectra (13.2%) did not present a valid peptide.
+Mon Apr 06 10:57:21 SAST 2020 80495 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:57:21 SAST 2020     - 44.3% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:57:21 SAST 2020     - 55.5% unrecognized modifications.
+Mon Apr 06 10:57:21 SAST 2020 Parsing 170909_CH_C1_T077_FT.t.xml.
+Mon Apr 06 10:57:56 SAST 2020 Loading spectra for 170909_CH_C1_T077_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:56 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:56 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:57 SAST 2020 Importing PSMs from 170909_CH_C1_T077_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:57:57 SAST 2020 710 identified spectra (1.9%) did not present a valid peptide.
+Mon Apr 06 10:57:57 SAST 2020 1102 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:57:57 SAST 2020     - 7.4% peptide mapping to both target and decoy.
+Mon Apr 06 10:57:57 SAST 2020     - 46.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:57:57 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:57:57 SAST 2020     - 46.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:57:57 SAST 2020 Parsing 170909_CH_C1_T077_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:59 SAST 2020 Loading spectra for 170909_CH_C1_T077_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:59 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:57:59 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:58:01 SAST 2020 Importing PSMs from 170909_CH_C1_T077_FT.tide-search.target.txt
+10% 20% 30% 30% 40% 40% 40% 40% 50% 50% 60% 60% 60% 60% 60% 60% 60% 60% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 70% 80% 80% 80% 80% 90%
+Mon Apr 06 10:58:01 SAST 2020 273055 identified spectra (91.1%) did not present a valid peptide.
+Mon Apr 06 10:58:01 SAST 2020 355888 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:58:01 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:58:01 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 10:58:01 SAST 2020 Parsing 170909_CH_C1_T080_FT.comet.pep.xml.
+Mon Apr 06 10:58:45 SAST 2020 Loading spectra for 170909_CH_C1_T080_FT.comet.pep.xml.
+Mon Apr 06 10:58:45 SAST 2020 Importing 170909_CH_C1_T080_FT.mgf
+Mon Apr 06 10:58:45 SAST 2020 170909_CH_C1_T080_FT.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:58:46 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:58:46 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 10:58:46 SAST 2020 Importing PSMs from 170909_CH_C1_T080_FT.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 10:58:47 SAST 2020 62 identified spectra (0.1%) did not present a valid peptide.
+Mon Apr 06 10:58:47 SAST 2020 16542 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 10:58:47 SAST 2020     - 65.0% peptide length less than 7 or greater than 50,
+Mon Apr 06 10:58:47 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 10:58:47 SAST 2020     - 34.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 10:58:47 SAST 2020 Parsing 170909_CH_C1_T080_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:06 SAST 2020 Loading spectra for 170909_CH_C1_T080_FT.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:06 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:06 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:07 SAST 2020 Importing PSMs from 170909_CH_C1_T080_FT.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:00:07 SAST 2020 5488 identified spectra (15.6%) did not present a valid peptide.
+Mon Apr 06 11:00:07 SAST 2020 77598 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:00:07 SAST 2020     - 45.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:00:07 SAST 2020     - 54.4% unrecognized modifications.
+Mon Apr 06 11:00:07 SAST 2020 Parsing 170909_CH_C1_T080_FT.t.xml.
+Mon Apr 06 11:00:39 SAST 2020 Loading spectra for 170909_CH_C1_T080_FT.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:39 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:39 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:39 SAST 2020 Importing PSMs from 170909_CH_C1_T080_FT.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:00:40 SAST 2020 610 identified spectra (1.7%) did not present a valid peptide.
+Mon Apr 06 11:00:40 SAST 2020 974 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:00:40 SAST 2020     - 6.7% peptide mapping to both target and decoy.
+Mon Apr 06 11:00:40 SAST 2020     - 49.6% peptide length less than 7 or greater than 50,
+Mon Apr 06 11:00:40 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 11:00:40 SAST 2020     - 43.7% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:00:40 SAST 2020 Parsing 170909_CH_C1_T080_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:41 SAST 2020 Loading spectra for 170909_CH_C1_T080_FT.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:42 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:42 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:00:44 SAST 2020 Importing PSMs from 170909_CH_C1_T080_FT.tide-search.target.txt
+10% 20% 20% 20% 20% 20% 20% 30% 30% 30% 30% 30% 30% 30% 30% 30% 40% 40% 40% 40% 40% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 50% 60% 70% 70% 80% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90% 90%
+Mon Apr 06 11:02:13 SAST 2020 269222 identified spectra (92.0%) did not present a valid peptide.
+Mon Apr 06 11:02:13 SAST 2020 346331 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:02:13 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:02:13 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 11:02:13 SAST 2020 Parsing 170909_CH_C1_T084_FT_R2.comet.pep.xml.
+Mon Apr 06 11:03:16 SAST 2020 Loading spectra for 170909_CH_C1_T084_FT_R2.comet.pep.xml.
+Mon Apr 06 11:03:16 SAST 2020 Importing 170909_CH_C1_T084_FT_R2.mgf
+Mon Apr 06 11:03:17 SAST 2020 170909_CH_C1_T084_FT_R2.mgf imported.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:03:18 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:03:18 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:03:21 SAST 2020 Importing PSMs from 170909_CH_C1_T084_FT_R2.comet.pep.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:03:22 SAST 2020 68 identified spectra (0.2%) did not present a valid peptide.
+Mon Apr 06 11:03:22 SAST 2020 17677 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:03:22 SAST 2020     - 63.1% peptide length less than 7 or greater than 50,
+Mon Apr 06 11:03:22 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 11:03:22 SAST 2020     - 36.1% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:03:22 SAST 2020 Parsing 170909_CH_C1_T084_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:04:50 SAST 2020 Loading spectra for 170909_CH_C1_T084_FT_R2.myrimatch.mzid.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:04:51 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:04:51 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:04:51 SAST 2020 Importing PSMs from 170909_CH_C1_T084_FT_R2.myrimatch.mzid
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:04:52 SAST 2020 5258 identified spectra (15.5%) did not present a valid peptide.
+Mon Apr 06 11:04:52 SAST 2020 83740 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:04:52 SAST 2020     - 45.2% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:04:52 SAST 2020     - 54.7% unrecognized modifications.
+Mon Apr 06 11:04:52 SAST 2020 Parsing 170909_CH_C1_T084_FT_R2.t.xml.
+Mon Apr 06 11:05:22 SAST 2020 Loading spectra for 170909_CH_C1_T084_FT_R2.t.xml.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:22 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:22 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:22 SAST 2020 Importing PSMs from 170909_CH_C1_T084_FT_R2.t.xml
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:05:22 SAST 2020 718 identified spectra (2.0%) did not present a valid peptide.
+Mon Apr 06 11:05:22 SAST 2020 1143 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:05:22 SAST 2020     - 7.3% peptide mapping to both target and decoy.
+Mon Apr 06 11:05:22 SAST 2020     - 52.1% peptide length less than 7 or greater than 50,
+Mon Apr 06 11:05:22 SAST 2020         or number of missed cleavage sites outside of the range [0-2].
+Mon Apr 06 11:05:22 SAST 2020     - 40.5% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:05:22 SAST 2020 Parsing 170909_CH_C1_T084_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:24 SAST 2020 Loading spectra for 170909_CH_C1_T084_FT_R2.tide-search.target.txt.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:24 SAST 2020 Collecting peptides to map.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:25 SAST 2020 Mapping peptides to proteins.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Mon Apr 06 11:05:26 SAST 2020 Importing PSMs from 170909_CH_C1_T084_FT_R2.tide-search.target.txt
+10% 20% 30% 30% 30% 30% 40% 50% 60% 60% 60% 70% 80% 90%
+Mon Apr 06 11:05:27 SAST 2020 258871 identified spectra (91.6%) did not present a valid peptide.
+Mon Apr 06 11:05:27 SAST 2020 331292 of the best scoring peptides were excluded by the import filters:
+Mon Apr 06 11:05:27 SAST 2020     - 100.0% peptide presenting high mass or isotopic deviation.
+Mon Apr 06 11:05:27 SAST 2020 Warning: More than 75% of the PSMs did not pass the import filters.
+ Apparently your database contains a high degree of shared peptides between the target and decoy sequences. Please verify your database.
+ Please verify that your precursor selection criteria are not too restrictive.
+
+Mon Apr 06 11:05:27 SAST 2020 File import completed. 11722550 first hits imported (34076879 secondary) from 1314589 spectra.
+Mon Apr 06 11:05:27 SAST 2020 [3600524 first hits passed the initial filtering]
+Mon Apr 06 11:05:27 SAST 2020 Computing assumptions probabilities.
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 110% 120% 130% 140% 150% 160% 170% 180% 190% 200% 210% 220%
+Mon Apr 06 11:05:29 SAST 2020 Saving assumptions probabilities.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 11:33:06 SAST 2020 Selecting best peptide per spectrum.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 12:31:48 SAST 2020 Computing PSM probabilities.
+10% 20% 30% 40% 50% 60% 70% 80% 90%
+Mon Apr 06 12:31:48 SAST 2020 Scoring PTMs in PSMs (D-score and PhosphoRS)
+Mon Apr 06 12:31:48 SAST 2020 Scoring PSM PTMs. Please Wait...
+10% 20% 30%

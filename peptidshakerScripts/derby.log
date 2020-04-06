@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Apr 06 09:34:32 SAST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0171-4e69-8b11-0000dc811c78 
+on database directory /scratch/oknjav001/bal_mzML_raw_files/searchGUI/peptideShaker/PeptideShaker-1.16.44/resources/matches/cometProteinID_combinedData_27_id with class loader sun.misc.Launcher$AppClassLoader@5c647e05 
+Loaded from file:/scratch/oknjav001/bal_mzML_raw_files/searchGUI/peptideShaker/PeptideShaker-1.16.44/lib/derby-10.10.1.1.jar
+java.vendor=JetBrains s.r.o
+java.runtime.version=1.8.0_152-release-1056-b12
+user.dir=/scratch/oknjav001/bal_mzML_raw_files/searchGUI/peptideShaker/scripts
+os.name=Linux
+os.arch=amd64
+os.version=3.10.0-1062.12.1.el7.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
