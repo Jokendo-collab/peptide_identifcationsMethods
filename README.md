@@ -40,7 +40,7 @@ Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolera
 ### Results table
 |Comet         | MSfragger     | Andromeda    | Tide    | MS-GF+      | InsPect  |
 |------------- | ------------- | ------------ | --------| ------------|----------|
-|2002 px       | 1927 px       | Content      | Content | content     |2709 Px   |
+|2002 px       | 1927 px       | Content      | Content | 2232 px     |2709 Px   |
 |19238 pep     | 18411 peptides| Content      | Content | Cont        |14365 pep |
 
 > Table 1: The database search results from different sequence search engines
