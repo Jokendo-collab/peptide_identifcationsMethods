@@ -62,6 +62,57 @@ Precursor mass tolerance was set from -150 to +500 Da, and precursor true tolera
 - Default parameter settings were not optimum.
 
 ---
+### References
+1: Mohammed Y, Palmblad M. Visualizing and comparing results of different
+peptide identification methods. Brief Bioinform. 2018 Mar 1;19(2):210-218. doi:
+10.1093/bib/bbw115. PMID: 28011752.
+
+2: Paulo JA. Practical and Efficient Searching in Proteomics: A Cross Engine
+Comparison. Webmedcentral. 2013 Oct 1;4(10):WMCPLS0052. doi:
+10.9754/journal.wplus.2013.0052. PMID: 25346847; PMCID: PMC4208621.
+
+3: Matthiesen R. Algorithms for database-dependent search of MS/MS data. Methods
+Mol Biol. 2013;1007:119-38. doi: 10.1007/978-1-62703-392-3_5. PMID: 23666724.
+
+4: Shilov IV, Seymour SL, Patel AA, Loboda A, Tang WH, Keating SP, Hunter CL,
+Nuwaysir LM, Schaeffer DA. The Paragon Algorithm, a next generation search
+engine that uses sequence temperature values and feature probabilities to
+identify peptides from tandem mass spectra. Mol Cell Proteomics. 2007
+Sep;6(9):1638-55. doi: 10.1074/mcp.T600050-MCP200. Epub 2007 May 27. PMID:
+17533153.
+
+5: Chen Y, Kwon SW, Kim SC, Zhao Y. Integrated approach for manual evaluation of
+peptides identified by searching protein sequence databases with tandem mass
+spectra. J Proteome Res. 2005 May-Jun;4(3):998-1005. doi: 10.1021/pr049754t.
+PMID: 15952748.
+
+6: Novák J, Sachsenberg T, Hoksza D, Skopal T, Kohlbacher O. On comparison of
+SimTandem with state-of-the-art peptide identification tools, efficiency of
+precursor mass filter and dealing with variable modifications. J Integr
+Bioinform. 2013 Nov 14;10(3):228. doi: 10.2390/biecoll-jib-2013-228. PMID:
+24231142.
+
+7: Wang J, Bourne PE, Bandeira N. Peptide identification by database search of
+mixture tandem mass spectra. Mol Cell Proteomics. 2011 Dec;10(12):M111.010017.
+doi: 10.1074/mcp.M111.010017. Epub 2011 Aug 23. PMID: 21862760; PMCID:
+PMC3237077.
+
+8: Raucci G, Gabrielli M, Novelli S, Picariello G, Collins SH. CHASE, a charge-
+assisted sequencing algorithm for automated homology-based protein
+identifications with matrix-assisted laser desorption/ionization time-of-flight
+post-source decay fragmentation data. J Mass Spectrom. 2005 Apr;40(4):475-88.
+doi: 10.1002/jms.817. PMID: 15712359.
+
+9: Zhang X, Li Y, Shao W, Lam H. Understanding the improved sensitivity of
+spectral library searching over sequence database searching in proteomics data
+analysis. Proteomics. 2011 Mar;11(6):1075-85. doi: 10.1002/pmic.201000492. Epub
+2011 Feb 7. PMID: 21298786.
+
+10: Ye D, Fu Y, Sun RX, Wang HP, Yuan ZF, Chi H, He SM. Open MS/MS spectral
+library search to identify unanticipated post-translational modifications and
+increase spectral identification rate. Bioinformatics. 2010 Jun
+15;26(12):i399-406. doi: 10.1093/bioinformatics/btq185. PMID: 20529934; PMCID:
+PMC2881370.
 
 Supported by National Research Foundation (NRF), Republic of South Africa
 
