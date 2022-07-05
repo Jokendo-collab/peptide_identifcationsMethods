@@ -1,5 +1,5 @@
 # Comparison of different search engines for the identification of proteins in complex clinical samples
-#### Javan O. Okendo. Clemens Hermann, Nicola Mulder, Jonathan M. Blackburn
+#### Javan Okendo
 
 #### 1. Department of Integrative Biomedical Sciences, Chemical and Systems Biology, University of Cape Town, South Africa
 #### 2. Department of Integrative Biomedical Sciences, Computational Biology and Bioinformatics, University of Cape Town, South Africa
